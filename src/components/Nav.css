@@ -16,6 +16,19 @@ nav {
     color: var(--bauhausWhite);
 }
 
+.gibson-nav-brand {
+    align-items: center;
+    font-size: 36px;
+    padding-top: 0.5rem;
+    margin-left: 8px;
+    margin-right: 1rem;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-block-start: 0px;
+    margin-block-end: 10px;
+}
+
+
 ul {
     display: flex;
     justify-content: space-evenly;
@@ -35,9 +48,10 @@ li {
 }
 
 a {
-    text-decoration: none;
-    color: var(--bauhausWhite);
+    text-decoration: none !important;
+    color: var(--bauhausWhite) !important;
     letter-spacing: 1px;
+    font-size: 26px;
 }
 
 ul > li:hover {
@@ -48,9 +62,39 @@ ul > li:hover {
  li a:hover {
     transform: scale(1.15);
     text-decoration: none;
-    color: var(--bauhausYellow)
+    color: var(--bauhausYellow) !important;
+    /* transition: 30ms ease-in-out; */
+
 }
 
-.bauhausLinkActive {
+.gibson-li-active {
+    /* transition: 250ms ease-in-out; */
+    transform: scale(1.05);
+    text-shadow: 6px 0px 0px var(--bauhausBlue), -6px 0px 0px var(--bauhausRedBlur);
+}
 
+.gibson-a-active {
+    /* transition: 250ms ease-in-out; */
+    /* font-weight: 550; */
+    transform: scale(1.15);
+    color: var(--bauhausYellow) !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .gibson-nav-brand {
+        margin-left: 0px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        padding-top: 0rem;
+        margin-block-end: 5px;
+    }
+    ul {
+        flex-direction: column;
+    }
+    a {
+        font-size: 16px;
+    }
 }
