@@ -1,0 +1,27 @@
+/*----------GENERAL DECLARATIONS--------------*/
+:root {
+
+    --bauhausWhite: white;
+    --bauhausBlack: black;
+    --bauhausRed: #cc006b;
+    --bauhausYellow: #fff10c;
+    --bauhausBlue: #0093d3;
+    --bauhausGrey: rgb(205, 205, 205);
+    --bauhausDarkGrey: rgb(125, 125, 125);
+    --bauhausRedBlur: rgb(204, 0, 107, .75);
+    --bauhausYellowBlur: rgb(255, 241, 12, .75);
+    --bauhausBlueBlur: rgb(0, 147, 211, .75);
+}
+
+* {
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica; 
+}
+
+html {
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+}
+

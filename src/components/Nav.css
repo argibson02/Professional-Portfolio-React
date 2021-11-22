@@ -1,0 +1,56 @@
+/*---------NAV BAR----------*/
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--bauhausBlack);
+    color: var(--bauhausWhite);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    padding: 10px;
+    background-color: var(--bauhausBlack);
+    color: var(--bauhausWhite);
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 26px;
+    margin: 5px 30px 5px 30px ;
+    transition: 250ms ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bauhausWhite);
+    letter-spacing: 1px;
+}
+
+ul > li:hover {
+    transform: scale(1.05);
+    text-shadow: 6px 0px 0px var(--bauhausBlue), -6px 0px 0px var(--bauhausRedBlur);
+}
+
+ li a:hover {
+    transform: scale(1.15);
+    text-decoration: none;
+    color: var(--bauhausYellow)
+}
+
+.bauhausLinkActive {
+
+}
