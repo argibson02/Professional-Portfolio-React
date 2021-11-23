@@ -30,7 +30,7 @@ export const projects = [
         gif: artGalleryGif,
         appUrl: "https://argibson02.github.io/3d-gallery-walk/",
         gitUrl: "https://github.com/argibson02/3d-gallery-walk",
-        technology: "HTML, CSS, JavaScript, jQuery, Materialize, CSS, Rijksmuseum, API, three.js, jimp, QR, Code, Generator, API",
+        technology: "HTML, CSS, JavaScript, jQuery, Materialize CSS, Rijksmuseum API, three.js, jimp, QR Code Generator API",
         detailed: "Enjoy the paintings of the Rijksmuseum up close and in 3D! See how light reflects off the oil! Feel each individual brush stroke! Experience time in the depths of each individual crack!",
     },
     {

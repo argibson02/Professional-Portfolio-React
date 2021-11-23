@@ -3,14 +3,23 @@ footer {
     justify-content: space-evenly;
     background-color: var(--bauhausBlack);
     color: var(--bauhausWhite);
-    height: 16px;
-    opacity: .8;
+    height: 34px;
     position:absolute;
     bottom:0;
     width:80%;
-    /* transform: translate(-9%); */
 }
 
 footer > p {
     font-size: 8px;
+}
+
+
+.gibson-foot-btn {
+    border-radius: 38px !important;
+    padding: 0.15rem 0.55rem !important;
+}
+
+.gibson-foot-btn:hover {
+    transition: .250s;
+    background-color: rgb(82, 82, 82);
 }

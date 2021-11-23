@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
 .bisection {
     /* border: 3px blue solid; */
     margin-top: 50px !important;
@@ -6,4 +11,8 @@
 .bisection-1 {
     border-right: 1px solid black;
     height:500px
+}
+
+.bisection-h1 {
+    padding-left: 35px;
 }
