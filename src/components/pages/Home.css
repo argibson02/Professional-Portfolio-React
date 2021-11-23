@@ -49,6 +49,16 @@ h1 {
     vertical-align: middle;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+    overflow: inherit;
+    }
+}
+
+
+
+
+
 /* #intro .container-mid a
 {
     font-size: 2rem;

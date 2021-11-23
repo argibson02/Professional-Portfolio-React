@@ -63,19 +63,14 @@ ul > li:hover {
     transform: scale(1.15);
     text-decoration: none;
     color: var(--bauhausYellow) !important;
-    /* transition: 30ms ease-in-out; */
-
 }
 
 .gibson-li-active {
-    /* transition: 250ms ease-in-out; */
     transform: scale(1.05);
     text-shadow: 6px 0px 0px var(--bauhausBlue), -6px 0px 0px var(--bauhausRedBlur);
 }
 
 .gibson-a-active {
-    /* transition: 250ms ease-in-out; */
-    /* font-weight: 550; */
     transform: scale(1.15);
     color: var(--bauhausYellow) !important;
 }
@@ -91,6 +86,9 @@ ul > li:hover {
         padding-top: 0rem;
         margin-block-end: 5px;
     }
+    nav{
+        flex-direction: column;
+    }
     ul {
         flex-direction: column;
     }
@@ -98,3 +96,4 @@ ul > li:hover {
         font-size: 16px;
     }
 }
+
