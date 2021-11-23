@@ -27,10 +27,13 @@ export default function PortfolioContainer() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav sticky="top" currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
+      <main>
+        {renderPage()}
+      </main>
       {/* <Footer /> */}
+      <script type="text/javascript" src="utils/parallax.js"></script>
     </div>
   );
 }

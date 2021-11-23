@@ -1,17 +1,10 @@
 import React from 'react';
 import './Nav.css'
 
-const styles = {
-  navbarStyle: {
-    // background: 'green',
-    // justifyContent: 'flex-end',
-  },
-};
-
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav className="display-flex row" style={styles.navbarStyle}>
+    <nav className="display-flex row">
       <p className="gibson-nav-brand col-md-4">alex gibson</p>
       <ul className="nav col-md-6">
         <li className={currentPage === 'Home' ? 'nav-item gibson-li-active' : 'nav-item'}>

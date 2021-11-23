@@ -1,21 +1,20 @@
 import React from 'react';
+import './Home.css';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div id="parallax" className="page">
+      <section id="intro">
+        <div className="container-mid text-center">
+          <div className="animation-container animation-fade-down" data-animation-delay="0">
+            <h1>Alex Gibson<br />Full-Stack Developer</h1>
+          </div>
+          <div className="animation-container animation-fade-up" data-animation-delay="300">
+            <p className="subline">See my work</p>
+            <a href="#about" className="scroll-down smooth-scroll"><i className="fa fa-long-arrow-down"></i></a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
