@@ -1,6 +1,6 @@
 /*----------GENERAL DECLARATIONS--------------*/
 :root {
-
+    /* BAUHAUS PALLETTE */
     --bauhausWhite: white;
     --bauhausBlack: black;
     --bauhausRed: #cc006b;
@@ -11,6 +11,18 @@
     --bauhausRedBlur: rgb(204, 0, 107, .75);
     --bauhausYellowBlur: rgb(255, 241, 12, .75);
     --bauhausBlueBlur: rgb(0, 147, 211, .75);
+
+    /* ROTTERDAM PALLETTE */
+    --rotterdamBlue: #0072BB;   
+    --rotterdamRed: #ED1B24;
+    --rotterdamWhite: white;
+    --rotterdamBlack: Black;
+    --rotterdamYellow: #fff480;
+    --rotterdamTeal: #73C1A7;
+    --rotterdamPink: #E790B3;
+    --rotterdamPlum:#3D2C7A;
+    --rotterdamRot: #DB2429;
+    --rotterdamGreen: #28AC72;
 }
 
 * {

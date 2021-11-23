@@ -43,6 +43,16 @@ function Nav({ currentPage, handlePageChange }) {
             Contact
           </a>
         </li>
+        {/* Resume nav link with be removed after grading */}
+        <li className={currentPage === 'Resume' ? 'nav-item gibson-li-active' : 'nav-item'}>
+          <a
+            href="#resume"
+            onClick={() => handlePageChange('Resume')}
+            className={currentPage === 'Resume' ? 'nav-link gibson-a-active' : 'nav-link'}
+          >
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   );

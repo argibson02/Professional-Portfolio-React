@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -19,21 +20,25 @@ export default function PortfolioContainer() {
     if (currentPage === 'Projects') {
       return <Projects />;
     }
-    return <Contact />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
-      <Nav sticky="top" currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
+      <header>
+        <Nav sticky="top" currentPage={currentPage} handlePageChange={handlePageChange} />
+      </header>
       <main>
         {renderPage()}
       </main>
       {/* <Footer /> */}
-      <script type="text/javascript" src="utils/parallax.js"></script>
     </div>
   );
 }

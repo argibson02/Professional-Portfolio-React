@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import './Home.css';
 
-export default function Home() {
+export default function Home({ currentPage, handlePageChange }) {
   useEffect(() => {
-    // Add event listener
+    // Add event listener for mouse movements
     document.addEventListener("mousemove", parallax);
     const elem = document.querySelector("#parallax");
 
-    // Magic happens here
+    // Parallax magic happens here
     function parallax(e) {
       let _w = window.innerWidth / 2;
       let _h = window.innerHeight / 2;
@@ -25,13 +25,16 @@ export default function Home() {
   return (
     <div id="parallax" className="page">
       <section id="intro">
-        <div className="container-mid text-center">
-          <div className="animation-container animation-fade-down" data-animation-delay="0">
-            <h1>Alex Gibson<br />Full-Stack Developer</h1>
+        <div className="container-mid text-center row">
+          <div className="animation-container animation-fade-down col-12" data-animation-delay="0">
+            <h1 className="gibson-placard">Alex Gibson<br />Full-Stack Developer</h1>
           </div>
-          <div className="animation-container animation-fade-up" data-animation-delay="300">
-            <p className="subline">See my work</p>
-            <a href="#about" className="scroll-down smooth-scroll"><i className="fa fa-long-arrow-down"></i></a>
+        </div>
+        <div className="container-mid text-center row">
+          <div className="animation-container animation-fade-up col-12" data-animation-delay="300">
+            <p className="subline">seeking new challenges and opportunities.<br />open to any and all things.</p>
+            {/* <button className="btn"><a href="#projects">
+              <i>go</i></a></button> */}
           </div>
         </div>
       </section>
