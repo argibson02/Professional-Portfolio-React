@@ -9,6 +9,7 @@ export default function About() {
       <div className="row">
         <section className="bisection bisection-1 col-lg-6">
           <h1>about me</h1>
+          <img src="./images/alex-gibson-headshot.jpeg" alt="Professional headshot of me, Alex Gibson." />
           <p>
             Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
             Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
