@@ -6,7 +6,8 @@ function Nav({ currentPage, handlePageChange }) {
   return (
     <nav className="display-flex row">
       <p className="gibson-nav-brand col-md-4">alex gibson</p>
-      <ul className="nav col-md-6">
+      {/* maybe change the ul col-7 to 6 when resume is removed. */}
+      <ul className="nav col-md-7">
         <li className={currentPage === 'Home' ? 'nav-item gibson-li-active' : 'nav-item'}>
           <a
             href="#home"

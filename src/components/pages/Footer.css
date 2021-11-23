@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--bauhausBlack);
+    color: var(--bauhausWhite);
+    height: 16px;
+    opacity: .8;
+    position:absolute;
+    bottom:0;
+    width:80%;
+    /* transform: translate(-9%); */
+}
+
+footer > p {
+    font-size: 8px;
+}
