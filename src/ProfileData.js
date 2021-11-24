@@ -1,25 +1,25 @@
 // App Images
-import artGalleryPic from './assets/project-pics/artGallery.png';
-import moonbasePic from './assets/project-pics/moonbase.png';
-import progressiveBudgetPic from './assets/project-pics/progressiveBudget.png';
-import fitnessTrackerPic from './assets/project-pics/fitnessTracker.png';
-import techBlogPic from './assets/project-pics/techBlog.png';
-import teamProfilePic from './assets/project-pics/teamProfile.png';
-import noteTakerPic from './assets/project-pics/noteTaker.png';
-import weatherPic from './assets/project-pics/weather.png';
-import employeeManagementPic from './assets/project-pics/employeeManagement.png';
+import artGalleryPic from './components/assets/project-pics/artGallery.png';
+import moonbasePic from './components/assets/project-pics/moonbase.png';
+import progressiveBudgetPic from './components/assets/project-pics/progressiveBudget.png';
+import fitnessTrackerPic from './components/assets/project-pics/fitnessTracker.png';
+import techBlogPic from './components/assets/project-pics/techBlog.png';
+import teamProfilePic from './components/assets/project-pics/teamProfile.png';
+import noteTakerPic from './components/assets/project-pics/noteTaker.png';
+import weatherPic from './components/assets/project-pics/weather.png';
+import employeeManagementPic from './components/assets/project-pics/employeeManagement.gif';
 
 
 // Demo Gifs
-// import artGalleryGif from './assets/project-gifs/artGallery.gif';
-// import moonbaseGif from './assets/project-gifs/moonbase.gif';
-// import progressiveBudgetGif from './assets/project-gifs/progressiveBudget.gif';
-// import fitnessTrackerGif from './assets/project-gifs/fitnessTracker.gif';
-// import techBlogGif from './assets/project-gifs/techBlog.gif';
-// import teamProfileGif from './assets/project-gifs/teamProfile.gif';
-// import noteTakerGif from './assets/project-gifs/noteTaker.gif';
-// import weatherGif from './assets/project-gifs/weather.gif';
-// import employeeManagementGif from './assets/project-gifs/employeeManagement.gif';
+// import artGalleryGif from './components/assets/project-gifs/artGallery.gif';
+// import moonbaseGif from './components/assets/project-gifs/moonbase.gif';
+// import progressiveBudgetGif from './components/assets/project-gifs/progressiveBudget.gif';
+// import fitnessTrackerGif from './components/assets/project-gifs/fitnessTracker.gif';
+// import techBlogGif from './components/assets/project-gifs/techBlog.gif';
+// import teamProfileGif from './components/assets/project-gifs/teamProfile.gif';
+// import noteTakerGif from './components/assets/project-gifs/noteTaker.gif';
+// import weatherGif from './components/assets/project-gifs/weather.gif';
+// import employeeManagementGif from './components/assets/project-gifs/employeeManagement.gif';
 
 export const projects = [
     {

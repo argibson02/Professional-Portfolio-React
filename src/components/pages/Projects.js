@@ -2,7 +2,6 @@ import React from 'react';
 import './Projects.css';
 import './Footer.css';
 import Footer from './Footer.js';
-import { Row } from 'react-bootstrap';
 import ProjectList from './ProjectsList.js';
 import { projects } from '../../ProfileData.js';
 // import from './images/icons/.png'
@@ -12,15 +11,15 @@ export default function Projects() {
     <div className="page-bg vh-100">
       <div className="container page-bg">
         <div className="row">
-          <section id="portfolio">
-            <h1 className="heading"><strong>Projects</strong></h1>
+          <section className="portfolio">
+            <h1 className="heading project-h1">projects</h1>
             <hr className="line" />
             <br />
-            <Row>
+            <div className="row">
               {projects.map((project) => (
                 <ProjectList key={project.id} project={project} />
               ))}
-            </Row>
+            </div>
             <br />
             <br />
           </section>
