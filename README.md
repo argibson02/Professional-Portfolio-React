@@ -11,39 +11,32 @@
 
 
 ## Description
-This is a Fitness Tracker webapp built with MongoDB, Express.js, and Node.js.
+This is my React professional profile. In this one, I try combine all of the best parts of my past portfolios and integrate the new technical skills that I have learned.
 
-Features:
-* Track both cardio and weight workouts.
-* Chart you workout trends in the Workout Stats Dashboard.
-* See cumulative totals of weight lifted, distance ran, and exercise durations.
 
-**[Click this link to go to the Fitness Tracker](https://ancient-scrubland-94310.herokuapp.com/)**.
+**[Click this link to go to my React Portfolio](https://immense-journey-97120.herokuapp.com/)**.
 
-![Demo GIF of the Fitness Tracker](./images/fitness-tracker-demo.gif)
+![Demo GIF of my React Portfolio](./public/react-portfolio-demo.gif)
 
  <br />
 
 
 ## Installation Instructions and Getting Started
-Any modern internet browser will do! Just navigate to **[the webpage](https://ancient-scrubland-94310.herokuapp.com/)**.
+Any modern internet browser will do! Just navigate to **[the webpage](https://immense-journey-97120.herokuapp.com/)**.
 
 
 ## Built With
 
-* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Node.js](https://nodejs.org/en/)
 * [Express.js](https://expressjs.com/)
-* [MongoDB](https://www.mongodb.com/)
-* [Mongoose](https://www.npmjs.com/package/mongoose)
+* [React](https://reactjs.org/)
 
 ## Technologies Used
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 * [Git Bash](https://git-scm.com/downloads)
 * [GitHub](https://github.com/)
-* [Insomnia](https://insomnia.rest/)
 * [Heroku](https://www.heroku.com/)
 
 ## Practices Used
@@ -53,7 +46,7 @@ Any modern internet browser will do! Just navigate to **[the webpage](https://an
 ## Authors
 **Alexander Gibson** 
 
-- [Link to Alex's Portfolio Site](https://argibson02.github.io/Professional-Portfolio-3/)
+- [Link to Alex's Portfolio Site](https://immense-journey-97120.herokuapp.com/)
 - [Link to Alex's Github](https://github.com/argibson02)
 - [Link to Alex's LinkedIn](www.linkedin.com/in/alexander-gibson-1b0bb6105)
 
