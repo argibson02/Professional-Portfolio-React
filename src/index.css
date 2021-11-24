@@ -24,10 +24,11 @@
     --rotterdamRot: #DB2429;
     --rotterdamGreen: #28AC72;
     --rotterdamClementine: #ff9f46;
+    --rotterdamLavender: #E1B0FE;
 }
 
 * {
-    font-size: 16px;
+    /* font-size: 16px; */
     margin: 0px;
     padding: 0px;
     font-family: Helvetica;
