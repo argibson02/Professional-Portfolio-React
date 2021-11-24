@@ -8,94 +8,17 @@ body{
     padding-top: 30px !important; 
 }
 
-
-.bisection {
-    padding-top: 40px !important;
-}
-
-.bisection-1 {
-    transition: 300ms ease-out;
-    border-right: 1px solid var(--bauhausGrey);
-    height:500px
-}
-
-.bisection-h1 {
-    padding-left: 35px;
-    transition: 300ms ease-out;
-}
-
-.profile-pic {
-    max-width: 350px;
-    margin: 2rem 3rem 2rem 1rem;
-    border-radius: 5%;
-    flex: 1 1 300px;
-    box-shadow: 7px -7px 1px var(--bauhausYellowBlur), -7px 10px 1px var(--bauhausRedBlur), 12px 4px 1px var(--bauhausBlueBlur);
-    transition: 300ms ease-out;
-}
-
-
-/* hover over shadows bisection-1*/
-.bisection-1:hover > .profile-pic {
-    box-shadow: 15px -15px 2px var(--bauhausYellowBlur), -15px 20px 2px var(--bauhausRedBlur), 25px 8px 2px var(--bauhausBlueBlur);
-}
-
-.bisection-1:hover > .bisection-1-h1 {
-    text-shadow: -3px 3px 0px var(--rotterdamRot), -6px 6px 0px var(--rotterdamPink);
-}
-
-.bisection-1:hover > p {
-    background-color: rgb(244, 244, 244, .8);
-}
-
-
-/* hover over shadows bisection-2*/
-.bisection-2:hover > .bisection-2-h1 {
-    text-shadow: 3px 3px 0px var(--rotterdamBlue), 6px 6px 0px var(--rotterdamTeal);
-}
-
-.bisection-2:hover > .skills-ul > .skills-li {
-    text-shadow: 0px 3px 0px var(--bauhausYellowBlur), 3px 4px 0px var(--rotterdamLavender);
-    transform: 1.05;
-}
-
-
-/* Skills */
-.skills-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.skills-li {
+.project-h1 {
     transition: 500ms ease-out;
-    text-align: center;
-    font-size: 20px !important;
-    font-weight: 500;
+
+}
+
+.page-bg:hover > .row > .portfolio > .project-h1 {
+    text-shadow: -5px 0px 0px var(--bauhausGrey), -8px 1px 0px var(--rotterdamOlivine);
 }
 
 
-.skills-img {
-    max-width: 50px;
-    max-height: 50px;
-    margin-right: 30px;
-}
-
-
-@media screen and (max-width: 1400px) {
-    body{
-        overflow: inherit;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .bisection-1 {
-        border-right: 0px solid white;
-        border-bottom: 1px solid var(--bauhausGrey);
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .profile-pic {
-        max-width: 250px;
-    }
-}
+/* .project-row {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+} */
