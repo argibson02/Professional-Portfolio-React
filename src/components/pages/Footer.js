@@ -5,7 +5,7 @@ import { Linkedin, Github, Envelope, } from 'react-bootstrap-icons';
 
 function Footer() {
   return (
-    <footer className="text-center text-white">
+    <footer className="text-center text-white fixed-bottom">
       <div className="container">
         <section className="mt-1">
 

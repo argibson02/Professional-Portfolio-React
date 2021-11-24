@@ -2,17 +2,11 @@ import React, { useState } from 'react';
 import './Contact.css';
 import './Footer.css';
 import Footer from './Footer.js';
-import css from './images/icons/css.png'
-import express from './images/icons/express.png'
-import handlebars from './images/icons/handlebars.png'
-import html from './images/icons/html.png'
-import js from './images/icons/js.png'
-import mongodb from './images/icons/mongodb.png'
-import mysql from './images/icons/mysql.png'
-import nodejs from './images/icons/nodejs.png'
-import react from './images/icons/react.png'
+import { Linkedin, Github, Envelope, } from 'react-bootstrap-icons';
 
-import { validateEmail } from './utils/helpers';
+
+
+import { validateEmail, checkInputs } from './utils/helpers';
 // import from './images/icons/.png'
 
 
@@ -47,6 +41,12 @@ function Contact() {
       return;
     }
 
+    if (!checkInputs(message) || !checkInputs(contactName)) {
+      setErrorMessage(`All fields are required.`);
+      return;
+    }
+
+
     setContactName('');
     setMessage('');
     setEmail('');
@@ -57,22 +57,28 @@ function Contact() {
 
 
   return (
-    <div className="page-bg">
+    <div className="page-bg vh-100">
       <div className="container page-bg">
         <div className="row">
           <section className="h-100 bisection bisection-4 col-lg-6">
             <h1 className="bisection-h1 bisection-4-h1">contact me</h1>
-            <ul className="skills-ul">
-              <li className="skills-li"><img src={css} className="skills-img col-6" type="image" alt="css" /><span className="skills-label col-6"> CSS</span></li>
-              <li className="skills-li"><img src={express} className="skills-img col-6" type="image" alt="express" /><span className="skills-label col-6"> express.js</span></li>
-              <li className="skills-li"><img src={handlebars} className="skills-img col-6" type="image" alt="handlebars" /><span className="skills-label col-6"> Handlebars.js</span></li>
-              <li className="skills-li"><img src={html} className="skills-img col-6" type="image" alt="html" /><span className="skills-label col-6"> HTML</span></li>
-              <li className="skills-li"><img src={js} className="skills-img col-6" type="image" alt="javascript" /><span className="skills-label col-6"> JavaScript</span></li>
-              <li className="skills-li"><img src={mongodb} className="skills-img col-6" type="image" alt="mongodb" /><span className="skills-label col-6"> MongoDB</span></li>
-              <li className="skills-li"><img src={mysql} className="skills-img col-6" type="image" alt="mysql" /><span className="skills-label col-6"> MySQL</span></li>
-              <li className="skills-li"><img src={nodejs} className="skills-img col-6" type="image" alt="nodejs" /><span className="skills-label col-6"> Node.js</span></li>
-              <li className="skills-li"><img src={react} className="skills-img col-6" type="image" alt="react" /><span className="skills-label col-6"> React</span></li>
-            </ul>
+            <p></p>
+
+            {/* <!-- LinkedIn --> */}
+            <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://www.linkedin.com/in/alexander-gibson-1b0bb6105/" target="_blank" rel="noreferrer" role="button"
+            ><Linkedin color="black" size={80} className="fab fa-linkedin-in" /></a>
+
+            {/* <!-- Github --> */}
+            <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://github.com/argibson02" target="_blank" rel="noreferrer" role="button"
+            ><Github color="black" size={80} className="fab fa-github-in" /></a>
+
+            {/* <!-- Email --> */}
+            <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="mailto:argibson02@gmail.com" target="_blank" rel="noreferrer" role="button"
+            ><Envelope color="black" size={80} className="fab fa-mail-in" /></a>
+
+
+
+
           </section>
           <section className="h-100 bisection bisection-3 col-lg-6">
             <h1 className="bisection-h1 bisection-3-h1">contact form</h1>

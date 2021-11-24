@@ -37,16 +37,6 @@ p {
     transition: 300ms ease-out;
 }
 
-.profile-pic {
-    max-width: 350px;
-    margin: 2rem 3rem 2rem 1rem;
-    border-radius: 5%;
-    flex: 1 1 300px;
-    box-shadow: 7px -7px 1px var(--bauhausYellowBlur), -7px 10px 1px var(--bauhausRedBlur), 12px 4px 1px var(--bauhausBlueBlur);
-    transition: 300ms ease-out;
-}
-
-
 /* hover over shadows bisection-3*/
 .bisection-3:hover > .profile-pic {
     box-shadow: 15px -15px 2px var(--bauhausYellowBlur), -15px 20px 2px var(--bauhausRedBlur), 25px 8px 2px var(--bauhausBlueBlur);
