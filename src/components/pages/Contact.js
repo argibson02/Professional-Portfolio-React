@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Contact.css';
 import './Footer.css';
 import Footer from './Footer.js';
-import { Linkedin, Github, Envelope, } from 'react-bootstrap-icons';
+import { Linkedin, Github, Envelope, PersonLinesFill } from 'react-bootstrap-icons';
 
 
 
@@ -62,7 +62,11 @@ function Contact() {
         <div className="row">
           <section className="h-100 bisection bisection-4 col-lg-6">
             <h1 className="bisection-h1 bisection-4-h1">contact me</h1>
-            <p></p>
+            <p>I am open to new work opportunities, exciting challenges, and making lasting
+              connections. Feel free to reach out at any time. I respond the quickest via the linked socials below!</p>
+            <p>Phone: +1 920-573-1067</p>
+            <p>Email: argibson02@gmail.com</p>
+
 
             {/* <!-- LinkedIn --> */}
             <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://www.linkedin.com/in/alexander-gibson-1b0bb6105/" target="_blank" rel="noreferrer" role="button"
@@ -76,8 +80,9 @@ function Contact() {
             <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="mailto:argibson02@gmail.com" target="_blank" rel="noreferrer" role="button"
             ><Envelope color="black" size={80} className="fab fa-mail-in" /></a>
 
-
-
+            {/* <!-- Resume --> */}
+            <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="../assets/alexander-gibson-resume-november-2021.pdf" target="_blank" rel="noreferrer" role="button"
+              download><PersonLinesFill color="black" size={80} className="fab fa-mail-in" /></a>
 
           </section>
           <section className="h-100 bisection bisection-3 col-lg-6">
