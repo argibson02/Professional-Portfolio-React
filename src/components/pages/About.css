@@ -3,13 +3,26 @@ body{
     overflow: hidden;
 }
 
+p {
+    transition: 500ms ease-out;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.skills-li:hover {
+    /* removes styling from nav li */
+    transform: scale(1.00);
+    text-shadow: 0px 0px 0px var(--bauhausBlue), 0px 0px 0px var(--bauhausRedBlur);
+}
+
 .bisection {
     /* border: 3px blue solid; */
     padding-top: 40px !important;
 }
 
 .bisection-1 {
-    border-right: 1px solid black;
+    transition: 300ms ease-out;
+    border-right: 1px solid var(--bauhausGrey);
     height:500px
 }
 
@@ -20,7 +33,7 @@ body{
 
 .profile-pic {
     max-width: 350px;
-    margin: 2rem 3rem 3rem 1rem;
+    margin: 2rem 3rem 2rem 1rem;
     /* max-width: 300px;
     max-height: 300px; */
     border-radius: 5%;
@@ -30,7 +43,7 @@ body{
 }
 
 
-/* hover over shadows */
+/* hover over shadows bisection-1*/
 .bisection-1:hover > .profile-pic {
     box-shadow: 15px -15px 2px var(--bauhausYellowBlur), -15px 20px 2px var(--bauhausRedBlur), 25px 8px 2px var(--bauhausBlueBlur);
 }
@@ -39,6 +52,62 @@ body{
     text-shadow: -3px 3px 0px var(--rotterdamRot), -6px 6px 0px var(--rotterdamPink);
 }
 
+.bisection-1:hover > p {
+    background-color: rgb(244, 244, 244, .8);
+}
+
+
+/* hover over shadows bisection-2*/
 .bisection-2:hover > .bisection-2-h1 {
     text-shadow: 3px 3px 0px var(--rotterdamBlue), 6px 6px 0px var(--rotterdamTeal);
+}
+
+.bisection-2:hover > .skills-li {
+    text-shadow: 3px 3px 0px var(--rotterdamBlue), 6px 6px 0px var(--rotterdamTeal);
+}
+
+
+/* Skills */
+
+.skills-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skills-li {
+    transition: 300ms ease-out;
+    text-align: center;
+    font-size: 28px !important;
+    font-weight: 500;
+}
+
+
+.skills-img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 30px;
+    /* flex: 1 1 36px; */
+
+}
+
+@media screen and (max-width: 992px) {
+    .bisection-1 {
+        border-right: 0px solid white;
+        border-bottom: 1px solid var(--bauhausGrey);
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .profile-pic {
+        max-width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    body{
+        overflow: inherit;
+    }
 }

@@ -59,7 +59,7 @@ ul > li:hover {
     text-shadow: 6px 0px 0px var(--bauhausBlue), -6px 0px 0px var(--bauhausRedBlur);
 }
 
- li a:hover {
+li a:hover {
     transform: scale(1.15);
     text-decoration: none;
     color: var(--bauhausYellow) !important;

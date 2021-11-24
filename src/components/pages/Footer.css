@@ -4,9 +4,9 @@ footer {
     background-color: var(--bauhausBlack);
     color: var(--bauhausWhite);
     height: 34px;
-    position:absolute;
-    bottom:0;
-    width:80%;
+    position: relative;
+    bottom: 0;
+    /* width:80%; */
 }
 
 footer > p {
@@ -23,3 +23,10 @@ footer > p {
     transition: .250s;
     background-color: rgb(60, 60, 60);
 }
+
+/* 
+@media screen and (max-width: 1200px) {
+    footer{
+        position: relative;
+    }
+} */
