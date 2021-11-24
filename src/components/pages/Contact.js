@@ -3,6 +3,7 @@ import './Contact.css';
 import './Footer.css';
 import Footer from './Footer.js';
 import { Linkedin, Github, Envelope, PersonLinesFill } from 'react-bootstrap-icons';
+import resumePdf from '../assets/alexander-gibson-resume-november-2021.pdf'
 
 
 
@@ -69,19 +70,43 @@ function Contact() {
 
 
             {/* <!-- LinkedIn --> */}
-            <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://www.linkedin.com/in/alexander-gibson-1b0bb6105/" target="_blank" rel="noreferrer" role="button"
+            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://www.linkedin.com/in/alexander-gibson-1b0bb6105/"
+              target="_blank"
+              rel="noreferrer"
+              role="button"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="LinkedIn"
             ><Linkedin color="black" size={80} className="fab fa-linkedin-in" /></a>
 
             {/* <!-- Github --> */}
-            <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://github.com/argibson02" target="_blank" rel="noreferrer" role="button"
+            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://github.com/argibson02"
+              target="_blank"
+              rel="noreferrer"
+              role="button"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Github"
             ><Github color="black" size={80} className="fab fa-github-in" /></a>
 
             {/* <!-- Email --> */}
-            <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="mailto:argibson02@gmail.com" target="_blank" rel="noreferrer" role="button"
+            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="mailto:argibson02@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              role="button"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Email"
             ><Envelope color="black" size={80} className="fab fa-mail-in" /></a>
 
             {/* <!-- Resume --> */}
-            <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="../assets/alexander-gibson-resume-november-2021.pdf" target="_blank" rel="noreferrer" role="button"
+            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href={resumePdf}
+              target="_blank"
+              rel="noreferrer"
+              role="button"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Resume Download"
               download><PersonLinesFill color="black" size={80} className="fab fa-mail-in" /></a>
 
           </section>

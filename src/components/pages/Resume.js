@@ -2,7 +2,6 @@ import React from 'react';
 import './Resume.css';
 import './Footer.css';
 import Footer from './Footer.js';
-// import from './images/icons/.png'
 
 export default function Resume() {
   return (

@@ -1,8 +1,6 @@
 import React from 'react';
 import './ProjectsList.css';
 
-// import from './images/icons/.png'
-
 export default function ProjectList(props) {
   return (
     <div className="col-md-4">
