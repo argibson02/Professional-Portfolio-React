@@ -26,7 +26,7 @@ body{
     color: var(--bauhausWhite);
     opacity: .8;
     font-size: clamp(24px, 46px, 70px);
-    text-shadow: 6px 0px 0px var(--bauhausBlack), -6px 0px 0px var(--bauhausRed), 0px 6px 0px var(--rotterdamPlum), 0px -6px 0px var(--rotterdamGreen);
+    text-shadow: 6px 0px 0px var(--bauhausBlack), -6px 0px 0px var(--bauhausRed), 0px 6px 0px var(--rotterdamPlum), 0px -6px 0px var(--rotterdamClementine);
 }
 
 
@@ -37,7 +37,7 @@ body{
     color: var(--bauhausWhite);
     opacity: .8;
     font-size: clamp(18px, 22px, 28px);
-    text-shadow: 0px 3px 0px var(--rotterdamRot), 0px 6px 0px var(--rotterdamPink);
+    text-shadow: 0px 3px 0px var(--rotterdamRot), 0px 6px 0px var(--rotterdamClementine);
 }
 
 @media screen and (max-width: 768px) {

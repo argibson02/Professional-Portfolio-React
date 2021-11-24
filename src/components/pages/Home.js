@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Home.css';
 
-export default function Home({ currentPage, handlePageChange }) {
+export default function Home() {
   useEffect(() => {
     // Add event listener for mouse movements
     document.addEventListener("mousemove", parallax);
@@ -32,7 +32,7 @@ export default function Home({ currentPage, handlePageChange }) {
         </div>
         <div className="container-mid text-center row">
           <div className="animation-container animation-fade-up col-12" data-animation-delay="300">
-            <p className="subline">seeking new challenges and opportunities.<br />open to any and all things.</p>
+            <p className="subline">i need a job!<br />seeking new challenges and opportunities.</p>
             {/* <button className="btn"><a href="#projects">
               <i>go</i></a></button> */}
           </div>

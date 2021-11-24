@@ -10,7 +10,7 @@ export default function About() {
     <div className="container">
       <div className="row">
         <section className="bisection bisection-1 col-lg-6">
-          <h1 className="bisection-h1">about me</h1>
+          <h1 className="bisection-h1 bisection-1-h1">about me</h1>
           <img className="profile-pic d-flex" src={headshot} alt="Professional headshot of me, Alex Gibson." />
           <p>
             Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
@@ -21,8 +21,8 @@ export default function About() {
             in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
           </p>
         </section>
-        <section className="bisection col-lg-6">
-          <h1 className="bisection-h1">skills</h1>
+        <section className="bisection bisection-2 col-lg-6">
+          <h1 className="bisection-h1 bisection-2-h1">skills</h1>
           <p>
             Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
             Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

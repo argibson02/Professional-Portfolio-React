@@ -5,7 +5,7 @@ body{
 
 .bisection {
     /* border: 3px blue solid; */
-    margin-top: 50px !important;
+    padding-top: 40px !important;
 }
 
 .bisection-1 {
@@ -15,4 +15,30 @@ body{
 
 .bisection-h1 {
     padding-left: 35px;
+    transition: 300ms ease-out;
+}
+
+.profile-pic {
+    max-width: 350px;
+    margin: 2rem 3rem 3rem 1rem;
+    /* max-width: 300px;
+    max-height: 300px; */
+    border-radius: 5%;
+    flex: 1 1 300px;
+    box-shadow: 7px -7px 1px var(--bauhausYellowBlur), -7px 10px 1px var(--bauhausRedBlur), 12px 4px 1px var(--bauhausBlueBlur);
+    transition: 300ms ease-out;
+}
+
+
+/* hover over shadows */
+.bisection-1:hover > .profile-pic {
+    box-shadow: 15px -15px 2px var(--bauhausYellowBlur), -15px 20px 2px var(--bauhausRedBlur), 25px 8px 2px var(--bauhausBlueBlur);
+}
+
+.bisection-1:hover > .bisection-1-h1 {
+    text-shadow: -3px 3px 0px var(--rotterdamRot), -6px 6px 0px var(--rotterdamPink);
+}
+
+.bisection-2:hover > .bisection-2-h1 {
+    text-shadow: 3px 3px 0px var(--rotterdamBlue), 6px 6px 0px var(--rotterdamTeal);
 }
