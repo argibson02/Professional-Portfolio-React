@@ -11,10 +11,10 @@
 
 
 ## Description
-This is my React professional profile. In this one, I try combine all of the best parts of my past portfolios and integrate the new technical skills that I have learned.
+This is my React professional profile. In this one, I try to combine all of the best parts of my past portfolios and integrate the new technical skills that I have learned.
 
 
-**[Click this link to go to my React Portfolio](https://immense-journey-97120.herokuapp.com/)**.
+**[Click this link to go to my React Portfolio](https://argibson02.github.io/Professional-Portfolio-React/)**.
 
 ![Demo GIF of my React Portfolio](./public/react-portfolio-demo.gif)
 
@@ -22,7 +22,7 @@ This is my React professional profile. In this one, I try combine all of the bes
 
 
 ## Installation Instructions and Getting Started
-Any modern internet browser will do! Just navigate to **[the webpage](https://immense-journey-97120.herokuapp.com/)**.
+Any modern internet browser will do! Just navigate to **[the webpage](https://argibson02.github.io/Professional-Portfolio-React/)**.
 
 
 ## Built With
@@ -46,7 +46,7 @@ Any modern internet browser will do! Just navigate to **[the webpage](https://im
 ## Authors
 **Alexander Gibson** 
 
-- [Link to Alex's Portfolio Site](https://immense-journey-97120.herokuapp.com/)
+- [Link to Alex's Portfolio Site](https://argibson02.github.io/Professional-Portfolio-React/)
 - [Link to Alex's Github](https://github.com/argibson02)
 - [Link to Alex's LinkedIn](www.linkedin.com/in/alexander-gibson-1b0bb6105)
 
