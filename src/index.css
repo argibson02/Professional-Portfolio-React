@@ -27,6 +27,18 @@
     --rotterdamOlivine: #2e8a62;
     --rotterdamClementine: #ff9f46;
     --rotterdamLavender: #E1B0FE;
+
+    /* KOLN PALETTE */
+    --kolnSky: #7DB8C3;
+    --kolnSky2: #75AFB7;
+    --kolnGeld: #F2B040;
+    --kolnCanola: #DBB07D;
+    --kolnWhale: #67758F;
+    --kolnZand: #D4C4BC;
+    --kolnEgg: #E8E5DF;
+    --kolnShark: #D1CFCD;
+    --kolnSwartz: #272629;
+
 }
 
 * {
