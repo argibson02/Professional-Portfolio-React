@@ -114,7 +114,7 @@ function Contact() {
             <h1 className="bisection-h1 bisection-3-h1">contact form</h1>
             <form>
               <div className="form-group mb-2">
-                <label for="email">Email address</label>
+                <label htmlFor="email">Email address</label>
                 <input
                   value={email}
                   name="email"
@@ -126,7 +126,7 @@ function Contact() {
                   placeholder="Enter email" />
               </div>
               <div className="form-group mb-2">
-                <label for="contact-name">Name</label>
+                <label htmlFor="contact-name">Name</label>
                 <input
                   value={contactName}
                   name="contactName"
@@ -137,7 +137,7 @@ function Contact() {
                   placeholder="Sammy Sample" />
               </div>
               <div className="form-group mb-2">
-                <label for="message">Message</label>
+                <label htmlFor="message">Message</label>
                 <textarea
                   value={message}
                   name="message"

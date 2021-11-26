@@ -1,0 +1,26 @@
+.resume-div {
+    max-width: 400px;
+    display: flex;
+    
+}
+
+
+.resume-link {
+}
+
+.resume-img {
+    transition: 300ms ease-in;
+    flex: 1 1 400px;
+    max-width: 400px;
+    box-shadow: 7px -7px 1px var(--bauhausYellowBlur), -7px 10px 1px var(--bauhausRedBlur), 12px 4px 1px var(--bauhausBlueBlur);
+    border-radius: 5%;
+}
+
+
+
+
+
+
+.resume-img:hover {
+    box-shadow: 15px -15px 2px var(--bauhausYellowBlur), -15px 20px 2px var(--bauhausRedBlur), 25px 8px 2px var(--bauhausBlueBlur);
+}
