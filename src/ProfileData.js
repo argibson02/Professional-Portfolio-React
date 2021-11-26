@@ -25,13 +25,13 @@ export const projects = [
     {
         id: 1,
         title: "3d Art Gallery",
-        description: "Enjoy the paintings of the Rijksmuseum up close and in 3D! See how light reflects off the oil! Feel each individual brush stroke! Experience time in the depths of each individual crack!",
+        description: "Enjoy the paintings of the Rijksmuseum up close and in 3D! See how light reflects off the oil! Experience time in the depths of each individual crack!",
         pic: artGalleryPic,
         // gif: artGalleryGif,
         appUrl: "https://argibson02.github.io/3d-gallery-walk/",
         gitUrl: "https://github.com/argibson02/3d-gallery-walk",
         technology: "HTML, CSS, JavaScript, jQuery, Materialize CSS, Rijksmuseum API, three.js, jimp, QR Code Generator API",
-        detailed: "Enjoy the paintings of the Rijksmuseum up close and in 3D! See how light reflects off the oil! Feel each individual brush stroke! Experience time in the depths of each individual crack!",
+        detailed: "Enjoy the paintings of the Rijksmuseum up close and in 3D! See how light reflects off the oil! Experience time in the depths of each individual crack!",
     },
     {
         id: 2,
@@ -102,7 +102,7 @@ export const projects = [
     {
         id: 8,
         title: "Weather Dashboard",
-        description: "This weather dashboard allows you to find a 5-day forecast for any city without being bombarded with ads! You can also search previously entered locations with ease by pressing on the recently searched buttons.",
+        description: "This weather dashboard allows you to find a 5-day forecast for any city! Find previously entered locations with the recently searched city buttons.",
         pic: weatherPic,
         // gif: weatherGif,
         appUrl: "https://argibson02.github.io/Weather-Dashboard/",
