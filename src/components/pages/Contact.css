@@ -86,7 +86,7 @@ p {
 }
 
 @media screen and (max-width: 992px) {
-    .bisection-3 {
+    .bisection-4 {
         border-right: 0px solid white;
         border-bottom: 1px solid var(--bauhausGrey);
     }

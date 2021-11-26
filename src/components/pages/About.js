@@ -16,7 +16,7 @@ import react from './images/icons/react.png'
 
 export default function About() {
   return (
-    <div className="page-bg vh-100">
+    <div className="page-bg h-100">
       <div className="container page-bg">
         <div className="row">
           <section className="h-100 bisection bisection-1 col-lg-6">
