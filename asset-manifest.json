@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Professional-Portfolio-React/static/css/main.2ab313a0.chunk.css",
-    "main.js": "/Professional-Portfolio-React/static/js/main.54a48ceb.chunk.js",
-    "main.js.map": "/Professional-Portfolio-React/static/js/main.54a48ceb.chunk.js.map",
-    "runtime-main.js": "/Professional-Portfolio-React/static/js/runtime-main.60688ee8.js",
-    "runtime-main.js.map": "/Professional-Portfolio-React/static/js/runtime-main.60688ee8.js.map",
+    "main.css": "/Professional-Portfolio-React/static/css/main.84ad1693.chunk.css",
+    "main.js": "/Professional-Portfolio-React/static/js/main.2cc4ab85.chunk.js",
+    "main.js.map": "/Professional-Portfolio-React/static/js/main.2cc4ab85.chunk.js.map",
+    "runtime-main.js": "/Professional-Portfolio-React/static/js/runtime-main.ea9a8adf.js",
+    "runtime-main.js.map": "/Professional-Portfolio-React/static/js/runtime-main.ea9a8adf.js.map",
     "static/css/2.383c0125.chunk.css": "/Professional-Portfolio-React/static/css/2.383c0125.chunk.css",
-    "static/js/2.b4de28d0.chunk.js": "/Professional-Portfolio-React/static/js/2.b4de28d0.chunk.js",
-    "static/js/2.b4de28d0.chunk.js.map": "/Professional-Portfolio-React/static/js/2.b4de28d0.chunk.js.map",
+    "static/js/2.c456731a.chunk.js": "/Professional-Portfolio-React/static/js/2.c456731a.chunk.js",
+    "static/js/2.c456731a.chunk.js.map": "/Professional-Portfolio-React/static/js/2.c456731a.chunk.js.map",
     "index.html": "/Professional-Portfolio-React/index.html",
     "static/css/2.383c0125.chunk.css.map": "/Professional-Portfolio-React/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.2ab313a0.chunk.css.map": "/Professional-Portfolio-React/static/css/main.2ab313a0.chunk.css.map",
-    "static/js/2.b4de28d0.chunk.js.LICENSE.txt": "/Professional-Portfolio-React/static/js/2.b4de28d0.chunk.js.LICENSE.txt",
+    "static/css/main.84ad1693.chunk.css.map": "/Professional-Portfolio-React/static/css/main.84ad1693.chunk.css.map",
+    "static/js/2.c456731a.chunk.js.LICENSE.txt": "/Professional-Portfolio-React/static/js/2.c456731a.chunk.js.LICENSE.txt",
     "static/media/alex-gibson-headshot.a28ba5ea.jpeg": "/Professional-Portfolio-React/static/media/alex-gibson-headshot.a28ba5ea.jpeg",
     "static/media/Home.css": "/Professional-Portfolio-React/static/media/alex-in-den-haag.65e77b0a.jpg",
-    "static/media/alexander-gibson-resume-2020-3-15.1275922e.docx": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2020-3-15.1275922e.docx",
+    "static/media/alexander-gibson-resume-2022.9248a39a.docx": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2022.9248a39a.docx",
     "static/media/alexander-gibson-resume-november-2021.f4c458d8.pdf": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-november-2021.f4c458d8.pdf",
     "static/media/artGallery.4a552791.png": "/Professional-Portfolio-React/static/media/artGallery.4a552791.png",
     "static/media/css.53d5eb3c.png": "/Professional-Portfolio-React/static/media/css.53d5eb3c.png",
@@ -27,17 +27,16 @@
     "static/media/noteTaker.951c3834.png": "/Professional-Portfolio-React/static/media/noteTaker.951c3834.png",
     "static/media/progressiveBudget.5d6f0982.png": "/Professional-Portfolio-React/static/media/progressiveBudget.5d6f0982.png",
     "static/media/react.c155fbac.png": "/Professional-Portfolio-React/static/media/react.c155fbac.png",
-    "static/media/resumeDocxImage.9a43a3fa.png": "/Professional-Portfolio-React/static/media/resumeDocxImage.9a43a3fa.png",
-    "static/media/resumePdfImage.c67d39e8.png": "/Professional-Portfolio-React/static/media/resumePdfImage.c67d39e8.png",
+    "static/media/resumeDocxImage.da73f70e.png": "/Professional-Portfolio-React/static/media/resumeDocxImage.da73f70e.png",
     "static/media/teamProfile.b51a955e.png": "/Professional-Portfolio-React/static/media/teamProfile.b51a955e.png",
     "static/media/techBlog.83c203b5.png": "/Professional-Portfolio-React/static/media/techBlog.83c203b5.png",
     "static/media/weather.cc13b5a0.png": "/Professional-Portfolio-React/static/media/weather.cc13b5a0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.60688ee8.js",
+    "static/js/runtime-main.ea9a8adf.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.b4de28d0.chunk.js",
-    "static/css/main.2ab313a0.chunk.css",
-    "static/js/main.54a48ceb.chunk.js"
+    "static/js/2.c456731a.chunk.js",
+    "static/css/main.84ad1693.chunk.css",
+    "static/js/main.2cc4ab85.chunk.js"
   ]
 }
