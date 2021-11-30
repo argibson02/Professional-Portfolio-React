@@ -3,13 +3,6 @@ body{
     /* overflow: hidden; */
 }
 
-.page-bg {
-    background: linear-gradient(45deg, var(--bauhausWhite) 20%, var(--bauhausGrey));
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 p {
     transition: 500ms ease-out;
     border-radius: 5px;
@@ -44,10 +37,6 @@ p {
 
 .bisection-3:hover > .bisection-3-h1 {
     text-shadow: 0px 3px 0px var(--rotterdamRot), 0px 7px 0px var(--rotterdamPink);
-}
-
-.bisection-3:hover > p {
-    background-color: rgb(244, 244, 244, .8);
 }
 
 

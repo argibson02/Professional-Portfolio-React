@@ -17,7 +17,6 @@ export default function Home() {
       let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
       let _depth3 = `${50 - (_mouseX - _w) * 0.03}% ${50 - (_mouseY - _h) * 0.03}%`;
       let x = `${_depth3}, ${_depth2}, ${_depth1}`;
-      // console.log(x);
       elem.style.backgroundPosition = x;
     }
   });
@@ -33,8 +32,6 @@ export default function Home() {
         <div className="container-mid text-center row">
           <div className="animation-container animation-fade-up col-12" data-animation-delay="300">
             <p className="subline">i need a job!<br />seeking new challenges and opportunities.</p>
-            {/* <button className="btn"><a href="#projects">
-              <i>go</i></a></button> */}
           </div>
         </div>
       </section>

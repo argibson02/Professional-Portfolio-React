@@ -51,15 +51,10 @@
 html {
     font-family: Helvetica;
     scroll-behavior: smooth;
-}
 
-.page-bg {
+    /*Adds background color. Formerly .page-bg */
     background: linear-gradient(45deg, var(--bauhausWhite) 20%, var(--bauhausGrey));
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-/* 
-.row {
-    --bs-gutter-x: 0rem;
-} */

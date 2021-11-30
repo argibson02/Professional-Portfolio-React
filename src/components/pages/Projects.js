@@ -1,10 +1,9 @@
 import React from 'react';
+import Footer from './Footer.js';
 import './Projects.css';
 import './Footer.css';
-import Footer from './Footer.js';
 import ProjectList from './ProjectsList.js';
 import { projects } from '../../ProfileData.js';
-// import from './images/icons/.png'
 
 export default function Projects() {
   return (

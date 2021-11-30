@@ -12,13 +12,12 @@ import mongodb from './images/icons/mongodb.png'
 import mysql from './images/icons/mysql.png'
 import nodejs from './images/icons/nodejs.png'
 import react from './images/icons/react.png'
-// import from './images/icons/.png'
 
 export default function About() {
   return (
     <div className="page-bg h-100">
       <div className="container page-bg">
-        <div className="row">
+        <div className="row mb-2">
           <section className="h-100 bisection bisection-1 col-lg-6">
             <h1 className="bisection-h1 bisection-1-h1">about me</h1>
             <img className="profile-pic d-flex" src={headshot} alt="Professional headshot of me, Alex Gibson." />

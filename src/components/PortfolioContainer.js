@@ -4,13 +4,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import Resume from './pages/Resume';
-// import Footer from './pages/Footer';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, it returns the corresponding component to render.
   const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
@@ -24,9 +22,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'Contact') {
       return <Contact />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -39,7 +34,7 @@ export default function PortfolioContainer() {
       <main>
         {renderPage()}
       </main>
-      {/* <Footer /> */}
+      {/* <Footer /> Footer is purposefully not here so that it is not rendered on the home page.*/}
     </div>
   );
 }

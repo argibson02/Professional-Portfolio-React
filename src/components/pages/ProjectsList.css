@@ -18,7 +18,7 @@
 }
 
 .project-card:hover > .project-img {
-    box-shadow: -11px -11px 2px var(--bauhausYellowBlur), -18px 12px 2px var(--bauhausRedBlur), 21px 6px 2px var(--bauhausBlueBlur);
+    box-shadow: -11px -11px 2px var(--bauhausYellowBlur), -18px 9px 2px var(--bauhausRedBlur), 21px 6px 2px var(--bauhausBlueBlur);
 }
 
 

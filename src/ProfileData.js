@@ -31,7 +31,7 @@ export const projects = [
         appUrl: "https://argibson02.github.io/3d-gallery-walk/",
         gitUrl: "https://github.com/argibson02/3d-gallery-walk",
         technology: "HTML, CSS, JavaScript, jQuery, Materialize CSS, Rijksmuseum API, three.js, jimp, QR Code Generator API",
-        detailed: "Enjoy the paintings of the Rijksmuseum up close and in 3D! See how light reflects off the oil! Experience time in the depths of each individual crack!",
+        // detailed: "Enjoy the paintings of the Rijksmuseum up close and in 3D! See how light reflects off the oil! Experience time in the depths of each individual crack!",
     },
     {
         id: 2,
@@ -42,7 +42,7 @@ export const projects = [
         appUrl: "https://guarded-chamber-67294.herokuapp.com/",
         gitUrl: "https://github.com/argibson02/moonbase",
         technology: "CSS, JavaScript, bcrypt, dotenv, Express.js, Handlebars, MySQL2, Node.js, nodemon, Sequelize, MySQL, Finnhub stock API, Axios, Cheerio, Bootstrap",
-        detailed: "Moonbase is a dedicated investment forum with integrated stock data",
+        // detailed: "Moonbase is a dedicated investment forum with integrated stock data",
     },
     {
         id: 3,
@@ -53,7 +53,7 @@ export const projects = [
         appUrl: "https://fast-dusk-57055.herokuapp.com/",
         gitUrl: "https://github.com/argibson02/Progressive-Budget",
         technology: "HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, IndexedDB, Webpack-pwa-manifest",
-        detailed: "This is a budget tracker web app that utilizes progressive web application features!",
+        // detailed: "This is a budget tracker web app that utilizes progressive web application features!",
     },
     {
         id: 4,
@@ -64,7 +64,7 @@ export const projects = [
         appUrl: "https://ancient-scrubland-94310.herokuapp.com/",
         gitUrl: "https://github.com/argibson02/Fitness-Tracker",
         technology: "HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, Mongoose",
-        detailed: "This is a Fitness Tracker webapp built with MongoDB, Express.js, and Node.js.",
+        // detailed: "This is a Fitness Tracker webapp built with MongoDB, Express.js, and Node.js.",
     },
     {
         id: 5,
@@ -75,7 +75,7 @@ export const projects = [
         appUrl: "https://hidden-headland-04885.herokuapp.com/",
         gitUrl: "https://github.com/argibson02/Tech-Blog",
         technology: "HTML, CSS, JavaScript, Node.js, Express.js, MySQL2, Sequelize, Dotenv, Handlebars, Brcypt",
-        detailed: "This is a mock tech blog built with MySQL, Sequelize, Express.js, and Node.js. Discuss your topics here!",
+        // detailed: "This is a mock tech blog built with MySQL, Sequelize, Express.js, and Node.js. Discuss your topics here!",
     },
     {
         id: 6,
@@ -86,7 +86,7 @@ export const projects = [
         appUrl: "https://argibson02.github.io/Team-Profile-Generator/",
         gitUrl: "https://github.com/argibson02/Team-Profile-Generator",
         technology: "HTML, CSS, JavaScript, jQuery, Node.js, Express.js, Jest, Inquirer, Materialize",
-        detailed: "This is an HTML/CSS generator intended to be used to quickly build a team profile page.",
+        // detailed: "This is an HTML/CSS generator intended to be used to quickly build a team profile page.",
     },
     {
         id: 7,
@@ -97,7 +97,7 @@ export const projects = [
         appUrl: "https://protected-badlands-46826.herokuapp.com/",
         gitUrl: "https://github.com/argibson02/Note-Taker",
         technology: "HTML, CSS, JavaScript, Node.js, Express.js",
-        detailed: "This is a note-taking app that utilizes Node.js, Express.js, and Heroku for persistent data storage.",
+        // detailed: "This is a note-taking app that utilizes Node.js, Express.js, and Heroku for persistent data storage.",
     },
     {
         id: 8,
@@ -108,7 +108,7 @@ export const projects = [
         appUrl: "https://argibson02.github.io/Weather-Dashboard/",
         gitUrl: "https://github.com/argibson02/Weather-Dashboard",
         technology: "HTML, CSS, JavaScript, jQuery, Bootstrap, OpenWeather APIs",
-        detailed: "This weather dashboard allows you to find a 5-day forecast for any city without being bombarded with ads! You can also search previously entered locations with ease by pressing on the recently searched buttons.",
+        // detailed: "This weather dashboard allows you to find a 5-day forecast for any city without being bombarded with ads! You can also search previously entered locations with ease by pressing on the recently searched buttons.",
     },
     {
         id: 9,
@@ -119,6 +119,6 @@ export const projects = [
         appUrl: "https://watch.screencastify.com/v/t9ArJJyTC8rqW6wRb9by",
         gitUrl: "https://github.com/argibson02/Employee-Management-System",
         technology: "JavaScript, Node.js, MySQL, Inquirer, Console.table, MySQL2",
-        detailed: "This is MySQL based management system with add, view, update, and delete capabilities for employees, roles, and departments.",
+        // detailed: "This is MySQL based management system with add, view, update, and delete capabilities for employees, roles, and departments.",
     }
 ];

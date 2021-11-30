@@ -17,7 +17,7 @@ body{
 }
 
 .container:hover > .row > .portfolio > .project-h1 {
-    text-shadow: -3px 1px 0px var(--rotterdamLime), -8px 0px 0px var(--rotterdamOlivine);
+    text-shadow: -3px 1px 0px var(--bauhausGrey), -8px 0px 0px var(--rotterdamGreen);
 }
 
 

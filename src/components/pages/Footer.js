@@ -2,7 +2,6 @@ import React from 'react';
 import './Footer.css'
 import { Linkedin, Github, Envelope, } from 'react-bootstrap-icons';
 
-
 function Footer() {
   return (
     <footer className="text-center text-white fixed-bottom">
@@ -22,9 +21,6 @@ function Footer() {
           ><Envelope color="white" size={15} className="fab fa-mail-in" /></a>
         </section>
       </div>
-      {/* <div className="text-center p-1">
-        © 2021 Copyright: Alex Gibson
-      </div> */}
     </footer>
   );
 }

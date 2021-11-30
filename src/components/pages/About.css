@@ -3,13 +3,6 @@ body{
     /* overflow: hidden; */
 }
 
-.page-bg {
-    background: linear-gradient(45deg, var(--bauhausWhite) 20%, var(--bauhausGrey));
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 p {
     transition: 500ms ease-out;
     border-radius: 5px;

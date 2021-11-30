@@ -1,0 +1,90 @@
+/* body{
+    margin: 0;
+    /* overflow: hidden;
+}
+
+.page-bg {
+    background: linear-gradient(45deg, var(--bauhausWhite) 20%, var(--bauhausGrey));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p {
+    transition: 500ms ease-out;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.skills-li:hover {
+    transform: scale(1.00);
+    text-shadow: 0px 0px 0px var(--bauhausBlue), 0px 0px 0px var(--bauhausRedBlur);
+}
+
+.bisection {
+    padding-top: 40px !important;
+}
+
+.bisection-4 {
+    transition: 300ms ease-out;
+    border-right: 1px solid var(--bauhausGrey);
+    height:500px
+}
+
+.bisection-h1 {
+    padding-left: 35px;
+    transition: 300ms ease-out;
+}
+
+.bisection-3:hover > .profile-pic {
+    box-shadow: 15px -15px 2px var(--bauhausYellowBlur), -15px 20px 2px var(--bauhausRedBlur), 25px 8px 2px var(--bauhausBlueBlur);
+}
+
+.bisection-3:hover > .bisection-3-h1 {
+    text-shadow: 0px 3px 0px var(--rotterdamRot), 0px 7px 0px var(--rotterdamPink);
+}
+
+.bisection-3:hover > p {
+    background-color: rgb(244, 244, 244, .8);
+}
+
+
+.bisection-4:hover > .bisection-4-h1 {
+    text-shadow: 0px -3px 0px var(--rotterdamBlue), 0px -7px 0px var(--rotterdamTeal);
+}
+
+.bisection-4:hover > .skills-ul > .skills-li {
+    text-shadow: 0px 3px 0px var(--bauhausYellowBlur), 0px 6px 0px var(--rotterdamLavender);
+}
+
+
+
+
+
+
+.gibson-contact-btn {
+    border-radius: 30px !important;
+}
+
+.gibson-contact-btn:hover {
+    transition: .350s;
+    background-color: rgb(220, 220, 220);
+}
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+    body{
+        overflow: inherit;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .bisection-4 {
+        border-right: 0px solid white;
+        border-bottom: 1px solid var(--bauhausGrey);
+    }
+} */
