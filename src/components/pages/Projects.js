@@ -7,6 +7,7 @@ import { projects } from '../../ProfileData.js';
 
 export default function Projects() {
   return (
+    // add a vh-100 here when fixing mobile view
     <div className="page-bg">
       <div className="container">
         <div className="row mb-3">

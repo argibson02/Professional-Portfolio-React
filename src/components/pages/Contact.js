@@ -2,10 +2,11 @@ import React from 'react';
 import './Contact.css';
 import './Resume.css'; import './Footer.css';
 import Footer from './Footer.js';
-import { Linkedin, Github, Envelope, PersonLinesFill } from 'react-bootstrap-icons';
+import { Linkedin, Github, Envelope } from 'react-bootstrap-icons';
 // import resumePdfImage from './images/resumePdfImage.png'
-import resumeDocxImage from './images/resumeDocxImage.png'
-import resumePdf from '../assets/alexander-gibson-resume-november-2021.pdf'
+// import resumeDocxImage from './images/resumeDocxImage.png'
+import resumeDocxImage from './images/resumeDocxImage-min.png'
+// import resumePdf from '../assets/alexander-gibson-resume-november-2021.pdf'
 import resumeDocx from '../assets/alexander-gibson-resume-2022.docx'
 
 
@@ -51,16 +52,6 @@ function Contact() {
               data-placement="bottom"
               title="Email"
             ><Envelope color="black" size={80} className="fab fa-mail-in" /></a>
-
-            {/* <!-- Resume --> */}
-            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href={resumePdf}
-              target="_blank"
-              rel="noreferrer"
-              role="button"
-              data-toggle="tooltip"
-              data-placement="bottom"
-              title="Resume Download"
-              download><PersonLinesFill color="black" size={80} className="fab fa-mail-in" /></a>
 
           </section>
           <section className="h-100 bisection bisection-3 col-lg-6">

@@ -9,7 +9,8 @@ body{
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url(./images/alex-in-den-haag.jpg);
+  /* background-image: url(./images/alex-in-den-haag.jpg); */
+  background-image: url(./images/alex-in-den-haag-1,5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

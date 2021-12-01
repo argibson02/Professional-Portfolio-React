@@ -10,14 +10,17 @@ function Footer() {
 
           {/* <!-- Linkedin --> */}
           <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://www.linkedin.com/in/alexander-gibson-1b0bb6105/" target="_blank" rel="noreferrer" role="button"
+            alt="link to my LinkedIn"
           ><Linkedin color="white" size={15} className="fab fa-linkedin-in" /></a>
 
           {/* <!-- Github --> */}
           <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://github.com/argibson02" target="_blank" rel="noreferrer" role="button"
+            alt="link to my GitHub"
           ><Github color="white" size={15} className="fab fa-github-in" /></a>
 
           {/* <!-- Email --> */}
           <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="mailto:argibson02@gmail.com" target="_blank" rel="noreferrer" role="button"
+            alt="link to email me"
           ><Envelope color="white" size={15} className="fab fa-mail-in" /></a>
         </section>
       </div>

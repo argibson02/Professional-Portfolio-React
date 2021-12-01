@@ -1,14 +1,24 @@
 // App Images
-import artGalleryPic from './components/assets/project-pics/artGallery.png';
-import moonbasePic from './components/assets/project-pics/moonbase.png';
-import progressiveBudgetPic from './components/assets/project-pics/progressiveBudget.png';
-import fitnessTrackerPic from './components/assets/project-pics/fitnessTracker.png';
-import techBlogPic from './components/assets/project-pics/techBlog.png';
-import teamProfilePic from './components/assets/project-pics/teamProfile.png';
-import noteTakerPic from './components/assets/project-pics/noteTaker.png';
-import weatherPic from './components/assets/project-pics/weather.png';
-import employeeManagementPic from './components/assets/project-pics/employeeManagement.gif';
+// import artGalleryPic from './components/assets/project-pics/artGallery.png';
+// import moonbasePic from './components/assets/project-pics/moonbase.png';
+// import progressiveBudgetPic from './components/assets/project-pics/progressiveBudget.png';
+// import fitnessTrackerPic from './components/assets/project-pics/fitnessTracker.png';
+// import techBlogPic from './components/assets/project-pics/techBlog.png';
+// import teamProfilePic from './components/assets/project-pics/teamProfile.png';
+// import noteTakerPic from './components/assets/project-pics/noteTaker.png';
+// import weatherPic from './components/assets/project-pics/weather.png';
+// import employeeManagementPic from './components/assets/project-pics/employeeManagement.gif';
 
+// Minified App Images
+import artGalleryPic from './components/assets/project-pics/min/artGallery.png';
+import moonbasePic from './components/assets/project-pics/min/moonbase.png';
+import progressiveBudgetPic from './components/assets/project-pics/min/progressiveBudget.png';
+import fitnessTrackerPic from './components/assets/project-pics/min/fitnessTracker.png';
+import techBlogPic from './components/assets/project-pics/min/techBlog.png';
+import teamProfilePic from './components/assets/project-pics/min/teamProfile.png';
+import noteTakerPic from './components/assets/project-pics/min/noteTaker.png';
+import weatherPic from './components/assets/project-pics/min/weather.png';
+import employeeManagementPic from './components/assets/project-pics/employeeManagement.gif';
 
 // Demo Gifs
 // import artGalleryGif from './components/assets/project-gifs/artGallery.gif';
