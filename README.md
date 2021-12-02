@@ -48,7 +48,7 @@ Any modern internet browser will do! Just navigate to **[the webpage](https://ar
 
 - [Link to Alex's Portfolio Site](https://argibson02.github.io/Professional-Portfolio-React/)
 - [Link to Alex's Github](https://github.com/argibson02)
-- [Link to Alex's LinkedIn](www.linkedin.com/in/alexander-gibson-1b0bb6105)
+- [Link to Alex's LinkedIn](https://www.linkedin.com/in/alexander-r-gibson/)
 
 
 ## Acknowledgments 😊

@@ -9,7 +9,7 @@ function Footer() {
         <section className="mt-1">
 
           {/* <!-- Linkedin --> */}
-          <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://www.linkedin.com/in/alexander-gibson-1b0bb6105/" target="_blank" rel="noreferrer" role="button"
+          <a className="btn btn-floating mx-1 gibson-foot-btn btn-link" href="https://www.linkedin.com/in/alexander-r-gibson/" target="_blank" rel="noreferrer" role="button"
             alt="link to my LinkedIn"
           ><Linkedin color="white" size={15} className="fab fa-linkedin-in" /></a>
 

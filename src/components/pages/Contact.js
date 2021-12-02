@@ -24,7 +24,7 @@ function Contact() {
 
 
             {/* <!-- LinkedIn --> */}
-            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://www.linkedin.com/in/alexander-gibson-1b0bb6105/"
+            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://www.linkedin.com/in/alexander-r-gibson/"
               target="_blank"
               rel="noreferrer"
               role="button"
