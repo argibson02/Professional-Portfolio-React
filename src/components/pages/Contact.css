@@ -52,7 +52,12 @@ p {
 
 
 
-
+.contact-btn-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 .gibson-contact-btn {
     border-radius: 30px !important;

@@ -2,7 +2,7 @@ import React from 'react';
 import './Contact.css';
 import './Resume.css'; import './Footer.css';
 import Footer from './Footer.js';
-import { Linkedin, Github, Envelope } from 'react-bootstrap-icons';
+import { Linkedin, Github, Envelope, Telephone } from 'react-bootstrap-icons';
 // import resumePdfImage from './images/resumePdfImage.png'
 // import resumeDocxImage from './images/resumeDocxImage.png'
 import resumeDocxImage from './images/resumeDocxImage-min.png'
@@ -22,37 +22,47 @@ function Contact() {
             <p>Phone: +1 920-573-1067</p>
             <p>Email: argibson02@gmail.com</p>
 
+            <div className='contact-btn-list my-4'>
+              {/* <!-- LinkedIn --> */}
+              <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://www.linkedin.com/in/alexander-r-gibson/"
+                target="_blank"
+                rel="noreferrer"
+                role="button"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="LinkedIn"
+              ><Linkedin color="black" size={80} className="fab fa-linkedin-in" /></a>
 
-            {/* <!-- LinkedIn --> */}
-            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://www.linkedin.com/in/alexander-r-gibson/"
-              target="_blank"
-              rel="noreferrer"
-              role="button"
-              data-toggle="tooltip"
-              data-placement="bottom"
-              title="LinkedIn"
-            ><Linkedin color="black" size={80} className="fab fa-linkedin-in" /></a>
+              {/* <!-- Github --> */}
+              <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://github.com/argibson02"
+                target="_blank"
+                rel="noreferrer"
+                role="button"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Github"
+              ><Github color="black" size={80} className="fab fa-github-in" /></a>
 
-            {/* <!-- Github --> */}
-            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://github.com/argibson02"
-              target="_blank"
-              rel="noreferrer"
-              role="button"
-              data-toggle="tooltip"
-              data-placement="bottom"
-              title="Github"
-            ><Github color="black" size={80} className="fab fa-github-in" /></a>
+              {/* <!-- Email --> */}
+              <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="mailto:argibson02@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                role="button"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Email"
+              ><Envelope color="black" size={80} className="fab fa-mail-in" /></a>
 
-            {/* <!-- Email --> */}
-            <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="mailto:argibson02@gmail.com"
-              target="_blank"
-              rel="noreferrer"
-              role="button"
-              data-toggle="tooltip"
-              data-placement="bottom"
-              title="Email"
-            ><Envelope color="black" size={80} className="fab fa-mail-in" /></a>
-
+              {/* <!-- Telephone --> */}
+              <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="tel:+1920-573-1067"
+                // target="_blank"
+                rel="noreferrer"
+                role="button"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Telephone"
+              ><Telephone color="black" size={80} className="fab fa-telephone-in" /></a>
+            </div>
           </section>
           <section className="h-100 bisection bisection-3 col-lg-6">
             <h1 className="bisection-h1 bisection-3-h1">resume</h1>

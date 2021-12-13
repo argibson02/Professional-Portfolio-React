@@ -7,6 +7,7 @@
 // import teamProfilePic from './components/assets/project-pics/teamProfile.png';
 // import noteTakerPic from './components/assets/project-pics/noteTaker.png';
 // import weatherPic from './components/assets/project-pics/weather.png';
+// import cryptocraftGif from './components/assets/project-pics/cryptocraft.gif';
 // import employeeManagementPic from './components/assets/project-pics/employeeManagement.gif';
 
 // Minified App Images
@@ -18,7 +19,8 @@ import techBlogPic from './components/assets/project-pics/min/techBlog.png';
 import teamProfilePic from './components/assets/project-pics/min/teamProfile.png';
 import noteTakerPic from './components/assets/project-pics/min/noteTaker.png';
 import weatherPic from './components/assets/project-pics/min/weather.png';
-import employeeManagementPic from './components/assets/project-pics/employeeManagement.gif';
+import cryptocraftPic from './components/assets/project-pics/min/cryptocraft.png';
+// import employeeManagementPic from './components/assets/project-pics/employeeManagement.gif';
 
 // Demo Gifs
 // import artGalleryGif from './components/assets/project-gifs/artGallery.gif';
@@ -45,6 +47,17 @@ export const projects = [
     },
     {
         id: 2,
+        title: "Cryptocraft",
+        description: "Cryptocraft is a cryptocurrency investing simulation and a great risk-free way for anyone to explore investing in crypto.",
+        pic: cryptocraftPic,
+        // gif: cryptocraftGif,
+        appUrl: "https://crypto-craft.herokuapp.com/",
+        gitUrl: "https://github.com/gulpinhenry/cryptocraft",
+        technology: "JavaScript, NodReact, JavaScript, CSS, Material UI, Node.js, Express.js, MongoDB, Mongoose.js, GraphQL, Chart.js, Axios, CryptoWatch Market API Inquirer.",
+        // detailed: "Cryptocraft is a cryptocurrency investing simulation and a great risk-free way for anyone to explore investing in crypto. Each user receives $1,000,000 in fake money to buy, sell, and experiment with over 125 different cryptos.",
+    },
+    {
+        id: 3,
         title: "Moonbase",
         description: "Moonbase is a dedicated investment forum with integrated stock data",
         pic: moonbasePic,
@@ -55,7 +68,7 @@ export const projects = [
         // detailed: "Moonbase is a dedicated investment forum with integrated stock data",
     },
     {
-        id: 3,
+        id: 4,
         title: "Progressive Web App Budget Tracker",
         description: "This is a budget tracker web app that utilizes progressive web application features!",
         pic: progressiveBudgetPic,
@@ -66,7 +79,7 @@ export const projects = [
         // detailed: "This is a budget tracker web app that utilizes progressive web application features!",
     },
     {
-        id: 4,
+        id: 5,
         title: "Fitness Tracker",
         description: "This is a Fitness Tracker webapp built with MongoDB, Express.js, and Node.js.",
         pic: fitnessTrackerPic,
@@ -77,7 +90,7 @@ export const projects = [
         // detailed: "This is a Fitness Tracker webapp built with MongoDB, Express.js, and Node.js.",
     },
     {
-        id: 5,
+        id: 6,
         title: "The Echo Chamber",
         description: "This is a mock tech blog built with MySQL, Sequelize, Express.js, and Node.js. Discuss your topics here!",
         pic: techBlogPic,
@@ -88,7 +101,7 @@ export const projects = [
         // detailed: "This is a mock tech blog built with MySQL, Sequelize, Express.js, and Node.js. Discuss your topics here!",
     },
     {
-        id: 6,
+        id: 7,
         title: "Team Profile Generator",
         description: "This is an HTML/CSS generator intended to be used to quickly build a team profile page.",
         pic: teamProfilePic,
@@ -99,7 +112,7 @@ export const projects = [
         // detailed: "This is an HTML/CSS generator intended to be used to quickly build a team profile page.",
     },
     {
-        id: 7,
+        id: 8,
         title: "Note Taker Web App",
         description: "This is a note-taking app that utilizes Node.js, Express.js, and Heroku for persistent data storage.",
         pic: noteTakerPic,
@@ -110,7 +123,7 @@ export const projects = [
         // detailed: "This is a note-taking app that utilizes Node.js, Express.js, and Heroku for persistent data storage.",
     },
     {
-        id: 8,
+        id: 9,
         title: "Weather Dashboard",
         description: "This weather dashboard allows you to find a 5-day forecast for any city! Find previously entered locations with the recently searched city buttons.",
         pic: weatherPic,
@@ -119,16 +132,5 @@ export const projects = [
         gitUrl: "https://github.com/argibson02/Weather-Dashboard",
         technology: "HTML, CSS, JavaScript, jQuery, Bootstrap, OpenWeather APIs",
         // detailed: "This weather dashboard allows you to find a 5-day forecast for any city without being bombarded with ads! You can also search previously entered locations with ease by pressing on the recently searched buttons.",
-    },
-    {
-        id: 9,
-        title: "Employee Management System",
-        description: "This is MySQL based management system with add, view, update, and delete capabilities for employees, roles, and departments.",
-        pic: employeeManagementPic,
-        // gif: employeeManagementGif,
-        appUrl: "https://watch.screencastify.com/v/t9ArJJyTC8rqW6wRb9by",
-        gitUrl: "https://github.com/argibson02/Employee-Management-System",
-        technology: "JavaScript, Node.js, MySQL, Inquirer, Console.table, MySQL2",
-        // detailed: "This is MySQL based management system with add, view, update, and delete capabilities for employees, roles, and departments.",
     }
 ];
