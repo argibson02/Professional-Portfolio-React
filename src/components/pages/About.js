@@ -38,15 +38,15 @@ export default function About() {
           <section className="h-100 bisection bisection-2 col-lg-6">
             <h1 className="bisection-h1 bisection-2-h1">skills</h1>
             <ul className="skills-ul">
-              <li className="skills-li"><img src={css} className="skills-img col-6" type="image" alt="css" /><span className="skills-label col-6"> CSS</span></li>
-              <li className="skills-li"><img src={express} className="skills-img col-6" type="image" alt="express" /><span className="skills-label col-6"> express.js</span></li>
-              <li className="skills-li"><img src={handlebars} className="skills-img col-6" type="image" alt="handlebars" /><span className="skills-label col-6"> Handlebars.js</span></li>
-              <li className="skills-li"><img src={html} className="skills-img col-6" type="image" alt="html" /><span className="skills-label col-6"> HTML</span></li>
-              <li className="skills-li"><img src={js} className="skills-img col-6" type="image" alt="javascript" /><span className="skills-label col-6"> JavaScript</span></li>
-              <li className="skills-li"><img src={mongodb} className="skills-img col-6" type="image" alt="mongodb" /><span className="skills-label col-6"> MongoDB</span></li>
-              <li className="skills-li"><img src={mysql} className="skills-img col-6" type="image" alt="mysql" /><span className="skills-label col-6"> MySQL</span></li>
-              <li className="skills-li"><img src={nodejs} className="skills-img col-6" type="image" alt="nodejs" /><span className="skills-label col-6"> Node.js</span></li>
-              <li className="skills-li"><img src={react} className="skills-img col-6" type="image" alt="react" /><span className="skills-label col-6"> React</span></li>
+              <li className="skills-li" id="skill-1"><img src={css} className="skills-img col-6" type="image" alt="css" /><span className="skills-label col-6"> CSS</span></li>
+              <li className="skills-li" id="skill-2"><img src={express} className="skills-img col-6" type="image" alt="express" /><span className="skills-label col-6"> express.js</span></li>
+              <li className="skills-li" id="skill-3"><img src={handlebars} className="skills-img col-6" type="image" alt="handlebars" /><span className="skills-label col-6"> Handlebars.js</span></li>
+              <li className="skills-li" id="skill-4"><img src={html} className="skills-img col-6" type="image" alt="html" /><span className="skills-label col-6"> HTML</span></li>
+              <li className="skills-li" id="skill-5"><img src={js} className="skills-img col-6" type="image" alt="javascript" /><span className="skills-label col-6"> JavaScript</span></li>
+              <li className="skills-li" id="skill-6"><img src={mongodb} className="skills-img col-6" type="image" alt="mongodb" /><span className="skills-label col-6"> MongoDB</span></li>
+              <li className="skills-li" id="skill-7"><img src={mysql} className="skills-img col-6" type="image" alt="mysql" /><span className="skills-label col-6"> MySQL</span></li>
+              <li className="skills-li" id="skill-8"><img src={nodejs} className="skills-img col-6" type="image" alt="nodejs" /><span className="skills-label col-6"> Node.js</span></li>
+              <li className="skills-li" id="skill-9"><img src={react} className="skills-img col-6" type="image" alt="react" /><span className="skills-label col-6"> React</span></li>
             </ul>
           </section>
         </div>
