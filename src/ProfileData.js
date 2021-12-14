@@ -14,11 +14,11 @@
 import artGalleryPic from './components/assets/project-pics/min/artGallery.png';
 import moonbasePic from './components/assets/project-pics/min/moonbase.png';
 import progressiveBudgetPic from './components/assets/project-pics/min/progressiveBudget.png';
-import fitnessTrackerPic from './components/assets/project-pics/min/fitnessTracker.png';
-import techBlogPic from './components/assets/project-pics/min/techBlog.png';
-import teamProfilePic from './components/assets/project-pics/min/teamProfile.png';
-import noteTakerPic from './components/assets/project-pics/min/noteTaker.png';
-import weatherPic from './components/assets/project-pics/min/weather.png';
+import fitnessTrackerPic from './components/assets/project-pics/min/fitnessTracker-sq.png';
+import techBlogPic from './components/assets/project-pics/min/techBlog-sq.jpg';
+import teamProfilePic from './components/assets/project-pics/min/teamProfile-sq.jpg';
+import noteTakerPic from './components/assets/project-pics/min/noteTaker-sq.jpg';
+import weatherPic from './components/assets/project-pics/min/weather-sq.jpg';
 import cryptocraftPic from './components/assets/project-pics/min/cryptocraft.png';
 // import employeeManagementPic from './components/assets/project-pics/employeeManagement.gif';
 
