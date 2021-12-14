@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/Professional-Portfolio-React/static/css/main.b668c8fe.chunk.css",
-    "main.js": "/Professional-Portfolio-React/static/js/main.3453b54e.chunk.js",
-    "main.js.map": "/Professional-Portfolio-React/static/js/main.3453b54e.chunk.js.map",
+    "main.css": "/Professional-Portfolio-React/static/css/main.cc007a30.chunk.css",
+    "main.js": "/Professional-Portfolio-React/static/js/main.0b596277.chunk.js",
+    "main.js.map": "/Professional-Portfolio-React/static/js/main.0b596277.chunk.js.map",
     "runtime-main.js": "/Professional-Portfolio-React/static/js/runtime-main.ea9a8adf.js",
     "runtime-main.js.map": "/Professional-Portfolio-React/static/js/runtime-main.ea9a8adf.js.map",
     "static/css/2.383c0125.chunk.css": "/Professional-Portfolio-React/static/css/2.383c0125.chunk.css",
-    "static/js/2.254e93a8.chunk.js": "/Professional-Portfolio-React/static/js/2.254e93a8.chunk.js",
-    "static/js/2.254e93a8.chunk.js.map": "/Professional-Portfolio-React/static/js/2.254e93a8.chunk.js.map",
+    "static/js/2.f829ff13.chunk.js": "/Professional-Portfolio-React/static/js/2.f829ff13.chunk.js",
+    "static/js/2.f829ff13.chunk.js.map": "/Professional-Portfolio-React/static/js/2.f829ff13.chunk.js.map",
     "index.html": "/Professional-Portfolio-React/index.html",
     "static/css/2.383c0125.chunk.css.map": "/Professional-Portfolio-React/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.b668c8fe.chunk.css.map": "/Professional-Portfolio-React/static/css/main.b668c8fe.chunk.css.map",
-    "static/js/2.254e93a8.chunk.js.LICENSE.txt": "/Professional-Portfolio-React/static/js/2.254e93a8.chunk.js.LICENSE.txt",
+    "static/css/main.cc007a30.chunk.css.map": "/Professional-Portfolio-React/static/css/main.cc007a30.chunk.css.map",
+    "static/js/2.f829ff13.chunk.js.LICENSE.txt": "/Professional-Portfolio-React/static/js/2.f829ff13.chunk.js.LICENSE.txt",
     "static/media/alex-gibson-headshot.a28ba5ea.jpeg": "/Professional-Portfolio-React/static/media/alex-gibson-headshot.a28ba5ea.jpeg",
     "static/media/Home.css": "/Professional-Portfolio-React/static/media/alex-in-den-haag-1,5.60145aeb.jpg",
-    "static/media/alexander-gibson-resume-2022.9248a39a.docx": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2022.9248a39a.docx",
+    "static/media/alexander-gibson-resume-2022-image.dd987c79.png": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2022-image.dd987c79.png",
+    "static/media/alexander-gibson-resume-2022.6f65a33f.docx": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2022.6f65a33f.docx",
     "static/media/artGallery.018b0ddb.png": "/Professional-Portfolio-React/static/media/artGallery.018b0ddb.png",
+    "static/media/cryptocraft.53997b24.png": "/Professional-Portfolio-React/static/media/cryptocraft.53997b24.png",
     "static/media/css.53d5eb3c.png": "/Professional-Portfolio-React/static/media/css.53d5eb3c.png",
-    "static/media/employeeManagement.a750e572.gif": "/Professional-Portfolio-React/static/media/employeeManagement.a750e572.gif",
     "static/media/fitnessTracker.fc4ca7c4.png": "/Professional-Portfolio-React/static/media/fitnessTracker.fc4ca7c4.png",
     "static/media/html.816e39fe.png": "/Professional-Portfolio-React/static/media/html.816e39fe.png",
     "static/media/mongodb.53c49187.png": "/Professional-Portfolio-React/static/media/mongodb.53c49187.png",
@@ -26,7 +27,6 @@
     "static/media/noteTaker.d441c71c.png": "/Professional-Portfolio-React/static/media/noteTaker.d441c71c.png",
     "static/media/progressiveBudget.ddb9240c.png": "/Professional-Portfolio-React/static/media/progressiveBudget.ddb9240c.png",
     "static/media/react.c155fbac.png": "/Professional-Portfolio-React/static/media/react.c155fbac.png",
-    "static/media/resumeDocxImage-min.985a596d.png": "/Professional-Portfolio-React/static/media/resumeDocxImage-min.985a596d.png",
     "static/media/teamProfile.2287d5fc.png": "/Professional-Portfolio-React/static/media/teamProfile.2287d5fc.png",
     "static/media/techBlog.84ba5874.png": "/Professional-Portfolio-React/static/media/techBlog.84ba5874.png",
     "static/media/weather.782d7d64.png": "/Professional-Portfolio-React/static/media/weather.782d7d64.png"
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.ea9a8adf.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.254e93a8.chunk.js",
-    "static/css/main.b668c8fe.chunk.css",
-    "static/js/main.3453b54e.chunk.js"
+    "static/js/2.f829ff13.chunk.js",
+    "static/css/main.cc007a30.chunk.css",
+    "static/js/main.0b596277.chunk.js"
   ]
 }
