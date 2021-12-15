@@ -54,11 +54,18 @@
     font-size: 14px !important;
 }
 
+/* Responsive */
+@media screen and (max-width: 1400px) {
+    .project-card {
+        min-height: 425px;
+        max-height: 425px;
+    }
+}
 
 @media screen and (max-width: 1200px) {
     .project-card {
-        min-height: 435px;
-        max-height: 435px;
+        min-height: 445px;
+        max-height: 445px;
     }
 }
 
@@ -66,5 +73,26 @@
     .project-card {
         min-height: 395px;
         max-height: 395px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .project-card {
+        min-height: 410px;
+        max-height: 410px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .project-card {
+        min-height: 420px;
+        max-height: 420px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .project-card {
+        min-height: 440px;
+        max-height: 440px;
     }
 }
