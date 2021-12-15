@@ -64,12 +64,14 @@ p {
 .gibson-contact-btn {
     border-radius: 40px !important;
     transition: .350s;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(245, 245, 245);
+    border: 1px solid var(--bauhausGrey);
     /* box-shadow: -10px 5px 1px var(--bauhausYellowBlur), -2px -8px 1px var(--bauhausRedBlur), 6px 7px 1px var(--bauhausBlueBlur); */
 }
 
 .gibson-contact-btn:hover {
     background-color: rgb(240, 240, 240);
+    border: 1px solid rgb(240, 240, 240, .1);
     box-shadow: -10px 4px 1px var(--bauhausYellowBlur), -2px -8px 1px var(--bauhausRedBlur), 6px 7px 1px var(--bauhausBlueBlur);
 }
 
@@ -121,6 +123,7 @@ p {
     box-shadow: 7px -7px 1px var(--bauhausYellowBlur), -7px 10px 1px var(--bauhausRedBlur), 12px 4px 1px var(--bauhausBlueBlur);
     border-radius: 5%;
     margin-left: 30px;
+    border: 1px solid rgb(230, 230, 230, .9);
 }
 
 .resume-img:hover {
