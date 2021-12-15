@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Professional-Portfolio-React/static/css/main.2ac4bb72.chunk.css",
-    "main.js": "/Professional-Portfolio-React/static/js/main.12708131.chunk.js",
-    "main.js.map": "/Professional-Portfolio-React/static/js/main.12708131.chunk.js.map",
+    "main.css": "/Professional-Portfolio-React/static/css/main.6968a50b.chunk.css",
+    "main.js": "/Professional-Portfolio-React/static/js/main.dc2d47e0.chunk.js",
+    "main.js.map": "/Professional-Portfolio-React/static/js/main.dc2d47e0.chunk.js.map",
     "runtime-main.js": "/Professional-Portfolio-React/static/js/runtime-main.ea9a8adf.js",
     "runtime-main.js.map": "/Professional-Portfolio-React/static/js/runtime-main.ea9a8adf.js.map",
     "static/css/2.383c0125.chunk.css": "/Professional-Portfolio-React/static/css/2.383c0125.chunk.css",
-    "static/js/2.f829ff13.chunk.js": "/Professional-Portfolio-React/static/js/2.f829ff13.chunk.js",
-    "static/js/2.f829ff13.chunk.js.map": "/Professional-Portfolio-React/static/js/2.f829ff13.chunk.js.map",
+    "static/js/2.12926195.chunk.js": "/Professional-Portfolio-React/static/js/2.12926195.chunk.js",
+    "static/js/2.12926195.chunk.js.map": "/Professional-Portfolio-React/static/js/2.12926195.chunk.js.map",
     "index.html": "/Professional-Portfolio-React/index.html",
     "static/css/2.383c0125.chunk.css.map": "/Professional-Portfolio-React/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.2ac4bb72.chunk.css.map": "/Professional-Portfolio-React/static/css/main.2ac4bb72.chunk.css.map",
-    "static/js/2.f829ff13.chunk.js.LICENSE.txt": "/Professional-Portfolio-React/static/js/2.f829ff13.chunk.js.LICENSE.txt",
+    "static/css/main.6968a50b.chunk.css.map": "/Professional-Portfolio-React/static/css/main.6968a50b.chunk.css.map",
+    "static/js/2.12926195.chunk.js.LICENSE.txt": "/Professional-Portfolio-React/static/js/2.12926195.chunk.js.LICENSE.txt",
     "static/media/alex-gibson-headshot.a28ba5ea.jpeg": "/Professional-Portfolio-React/static/media/alex-gibson-headshot.a28ba5ea.jpeg",
     "static/media/Home.css": "/Professional-Portfolio-React/static/media/alex-in-den-haag-1,5.60145aeb.jpg",
     "static/media/alexander-gibson-resume-2022-image.dd987c79.png": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2022-image.dd987c79.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.ea9a8adf.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.f829ff13.chunk.js",
-    "static/css/main.2ac4bb72.chunk.css",
-    "static/js/main.12708131.chunk.js"
+    "static/js/2.12926195.chunk.js",
+    "static/css/main.6968a50b.chunk.css",
+    "static/js/main.dc2d47e0.chunk.js"
   ]
 }
