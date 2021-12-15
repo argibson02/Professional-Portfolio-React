@@ -36,13 +36,13 @@ p {
 }
 
 .bisection-3:hover > .bisection-3-h1 {
-    text-shadow: 0px 3px 0px var(--rotterdamRot), 0px 7px 0px var(--rotterdamPink);
+    text-shadow: 0px 3px 0px var(--rotterdamRed), 0px 7px 0px var(--rotterdamDreamsicle);
 }
 
 
 /* hover over shadows bisection-4*/
 .bisection-4:hover > .bisection-4-h1 {
-    text-shadow: 0px -3px 0px var(--rotterdamBlue), 0px -7px 0px var(--rotterdamTeal);
+    text-shadow: 0px -3px 0px var(--rotterdamAcai), 0px -7px 0px var(--rotterdamLavender);
 }
 
 .bisection-4:hover > .skills-ul > .skills-li {
