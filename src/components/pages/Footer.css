@@ -23,9 +23,9 @@ footer > p {
     background-color: rgb(60, 60, 60);
 }
 
-/* 
-@media screen and (max-width: 1200px) {
-    footer{
-        position: relative;
+
+/* @media screen and (max-width: 992px) {
+    footer {
+    display: none;
     }
 } */

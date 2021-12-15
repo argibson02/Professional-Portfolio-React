@@ -59,7 +59,7 @@ p {
     text-shadow: 3px 3px 0px var(--rotterdamBlue), 6px 6px 0px var(--rotterdamTeal);
 }
 
-.bisection-2:hover > .skills-ul > .skills-li {
+.bisection-2:hover > .skill-box > .skills-ul > .skills-li {
     text-shadow: 0px 3px 0px var(--bauhausYellowBlur), 3px 4px 0px var(--rotterdamLavender);
     transform: 1.05;
 }
