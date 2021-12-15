@@ -21,44 +21,44 @@ function Contact() {
 
             <div className='contact-btn-list my-4'>
               {/* <!-- LinkedIn --> */}
-              <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://www.linkedin.com/in/alexander-r-gibson/"
+              <a className="btn btn-floating mx-3 gibson-contact-btn btn-link" href="https://www.linkedin.com/in/alexander-r-gibson/"
                 target="_blank"
                 rel="noreferrer"
                 role="button"
                 data-toggle="tooltip"
                 data-placement="bottom"
                 title="LinkedIn"
-              ><Linkedin color="black" size={80} className="fab fa-linkedin-in" /></a>
+              ><Linkedin color="black" size={80} className="fab-c fa-linkedin-in" /></a>
 
               {/* <!-- Github --> */}
-              <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="https://github.com/argibson02"
+              <a className="btn btn-floating mx-3 gibson-contact-btn btn-link" href="https://github.com/argibson02"
                 target="_blank"
                 rel="noreferrer"
                 role="button"
                 data-toggle="tooltip"
                 data-placement="bottom"
                 title="Github"
-              ><Github color="black" size={80} className="fab fa-github-in" /></a>
+              ><Github color="black" size={80} className="fab-c fa-github-in" /></a>
 
               {/* <!-- Email --> */}
-              <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="mailto:argibson02@gmail.com"
+              <a className="btn btn-floating mx-3 gibson-contact-btn btn-link" href="mailto:argibson02@gmail.com"
                 target="_blank"
                 rel="noreferrer"
                 role="button"
                 data-toggle="tooltip"
                 data-placement="bottom"
                 title="Email"
-              ><Envelope color="black" size={80} className="fab fa-mail-in" /></a>
+              ><Envelope color="black" size={80} className="fab-c fa-mail-in" /></a>
 
               {/* <!-- Telephone --> */}
-              <a className="btn btn-floating mx-1 gibson-contact-btn btn-link" href="tel:+1920-573-1067"
+              <a className="btn btn-floating mx-3 gibson-contact-btn btn-link" href="tel:+1920-573-1067"
                 // target="_blank"
                 rel="noreferrer"
                 role="button"
                 data-toggle="tooltip"
                 data-placement="bottom"
                 title="Telephone"
-              ><Telephone color="black" size={80} className="fab fa-telephone-in" /></a>
+              ><Telephone color="black" size={80} className="fab-c fa-telephone-in" /></a>
             </div>
           </section>
           <section className="h-100 bisection bisection-3 col-lg-6">

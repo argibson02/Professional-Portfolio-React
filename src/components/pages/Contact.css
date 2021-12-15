@@ -62,20 +62,35 @@ p {
 }
 
 .gibson-contact-btn {
-    border-radius: 30px !important;
+    border-radius: 40px !important;
+    transition: .350s;
+    background-color: rgb(240, 240, 240);
+    /* box-shadow: -10px 5px 1px var(--bauhausYellowBlur), -2px -8px 1px var(--bauhausRedBlur), 6px 7px 1px var(--bauhausBlueBlur); */
 }
 
 .gibson-contact-btn:hover {
-    transition: .350s;
-    background-color: rgb(220, 220, 220);
-    color: red;
+    background-color: rgb(240, 240, 240);
+    box-shadow: -10px 4px 1px var(--bauhausYellowBlur), -2px -8px 1px var(--bauhausRedBlur), 6px 7px 1px var(--bauhausBlueBlur);
+}
+
+/* .gibson-contact-btn:hover {
+    background-color: rgb(240, 240, 240);
+    box-shadow: -10px 4px 1px var(--bauhausYellowBlur);
+    transition-delay: .1s;
+    box-shadow: -10px 4px 1px var(--bauhausYellowBlur), -2px -8px 1px var(--bauhausRedBlur);
+    transition-delay: .2s;
+    box-shadow: -10px 4px 1px var(--bauhausYellowBlur), -2px -8px 1px var(--bauhausRedBlur), 6px 7px 1px var(--bauhausBlueBlur);
+    transition-delay: .3s;
+} */
+
+
+.fab-c {
+    padding: 4px;
 }
 
 
 
-
-
-
+/* RESPONSIVE */
 @media screen and (max-width: 1400px) {
     body{
         overflow: inherit;
