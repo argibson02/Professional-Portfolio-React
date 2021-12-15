@@ -1,12 +1,9 @@
 import React from 'react';
 import './Contact.css';
-import './Resume.css'; import './Footer.css';
+import './Footer.css';
 import Footer from './Footer.js';
 import { Linkedin, Github, Envelope, Telephone } from 'react-bootstrap-icons';
-// import resumePdfImage from './images/resumePdfImage.png'
-// import resumeDocxImage from './images/resumeDocxImage.png'
 import resumeDocxImage from '../assets/alexander-gibson-resume-2022-image.png'
-// import resumePdf from '../assets/alexander-gibson-resume-november-2021.pdf'
 import resumeDocx from '../assets/alexander-gibson-resume-2022.docx'
 
 

@@ -15,6 +15,8 @@ p {
     text-shadow: 0px 0px 0px var(--bauhausBlue), 0px 0px 0px var(--bauhausRedBlur);
 }
 
+
+/* BISECTION */
 .bisection {
     padding-top: 40px !important;
 }
@@ -51,7 +53,7 @@ p {
 
 
 
-
+/* CONTACT BUTTONS */
 .contact-btn-list {
     display: flex;
     justify-content: center;
@@ -66,6 +68,7 @@ p {
 .gibson-contact-btn:hover {
     transition: .350s;
     background-color: rgb(220, 220, 220);
+    color: red;
 }
 
 
@@ -85,3 +88,43 @@ p {
         border-bottom: 1px solid var(--bauhausGrey);
     }
 }
+
+
+
+
+/* RESUME */
+
+.resume-div {
+    max-width: 400px;
+    display: flex;
+}
+
+.resume-img {
+    transition: 300ms ease-in;
+    flex: 1 1 400px;
+    max-width: 400px;
+    box-shadow: 7px -7px 1px var(--bauhausYellowBlur), -7px 10px 1px var(--bauhausRedBlur), 12px 4px 1px var(--bauhausBlueBlur);
+    border-radius: 5%;
+    margin-left: 30px;
+}
+
+.resume-img:hover {
+    box-shadow: 15px -15px 2px var(--bauhausYellowBlur), -15px 20px 2px var(--bauhausRedBlur), 25px 8px 2px var(--bauhausBlueBlur);
+}
+
+@media screen and (max-width: 768px) {
+    .resume-img {
+        max-width: 300px;
+    }
+    .resume-div {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .resume-img {
+        max-width: 250px;
+    }
+}
+
