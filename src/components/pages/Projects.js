@@ -3,7 +3,7 @@ import Footer from './Footer.js';
 import './Projects.css';
 import './Footer.css';
 import ProjectList from './ProjectsList.js';
-import { projects } from '../../ProfileData.js';
+import { projects } from '../../data/ProfileData.js';
 
 export default function Projects() {
   return (

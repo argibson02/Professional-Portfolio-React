@@ -1,16 +1,17 @@
 // Minified App Images
-import artGalleryPic from './components/assets/project-pics/min/artGallery.png';
-import moonbasePic from './components/assets/project-pics/min/moonbase.png';
-import progressiveBudgetPic from './components/assets/project-pics/min/progressiveBudget.png';
-import fitnessTrackerPic from './components/assets/project-pics/min/fitnessTracker-sq.png';
-import techBlogPic from './components/assets/project-pics/min/techBlog-sq.jpg';
-import teamProfilePic from './components/assets/project-pics/min/teamProfile-sq.jpg';
-import noteTakerPic from './components/assets/project-pics/min/noteTaker-sq.jpg';
-import weatherPic from './components/assets/project-pics/min/weather-sq.jpg';
-import cryptocraftPic from './components/assets/project-pics/min/cryptocraft.png';
+import artGalleryPic from '../components/assets/project-pics/min/artGallery.png';
+import cryptocraftPic from '../components/assets/project-pics/min/cryptocraft.png';
+import moonbasePic from '../components/assets/project-pics/min/moonbase.png';
+import progressiveBudgetPic from '../components/assets/project-pics/min/progressiveBudget.png';
+import fitnessTrackerPic from '../components/assets/project-pics/min/fitnessTracker-sq.png';
+import techBlogPic from '../components/assets/project-pics/min/techBlog-sq.jpg';
+import teamProfilePic from '../components/assets/project-pics/min/teamProfile-sq.jpg';
+import noteTakerPic from '../components/assets/project-pics/min/noteTaker-sq.jpg';
+import weatherPic from '../components/assets/project-pics/min/weather-sq.jpg';
 
 // Demo Gifs
 // import artGalleryGif from './components/assets/project-gifs/artGallery.gif';
+// import cryptocraftPic from './components/assets/project-gifs/cryptocraft.gif';
 // import moonbaseGif from './components/assets/project-gifs/moonbase.gif';
 // import progressiveBudgetGif from './components/assets/project-gifs/progressiveBudget.gif';
 // import fitnessTrackerGif from './components/assets/project-gifs/fitnessTracker.gif';
@@ -18,7 +19,6 @@ import cryptocraftPic from './components/assets/project-pics/min/cryptocraft.png
 // import teamProfileGif from './components/assets/project-gifs/teamProfile.gif';
 // import noteTakerGif from './components/assets/project-gifs/noteTaker.gif';
 // import weatherGif from './components/assets/project-gifs/weather.gif';
-// import cryptocraftPic from './components/assets/project-gifs/min/cryptocraft.gif';
 
 export const projects = [
     {
