@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Professional-Portfolio-React/static/css/main.8afcf279.chunk.css",
-    "main.js": "/Professional-Portfolio-React/static/js/main.2eed307b.chunk.js",
-    "main.js.map": "/Professional-Portfolio-React/static/js/main.2eed307b.chunk.js.map",
+    "main.css": "/Professional-Portfolio-React/static/css/main.81b094d4.chunk.css",
+    "main.js": "/Professional-Portfolio-React/static/js/main.055d8950.chunk.js",
+    "main.js.map": "/Professional-Portfolio-React/static/js/main.055d8950.chunk.js.map",
     "runtime-main.js": "/Professional-Portfolio-React/static/js/runtime-main.ea9a8adf.js",
     "runtime-main.js.map": "/Professional-Portfolio-React/static/js/runtime-main.ea9a8adf.js.map",
-    "static/css/2.383c0125.chunk.css": "/Professional-Portfolio-React/static/css/2.383c0125.chunk.css",
-    "static/js/2.12926195.chunk.js": "/Professional-Portfolio-React/static/js/2.12926195.chunk.js",
-    "static/js/2.12926195.chunk.js.map": "/Professional-Portfolio-React/static/js/2.12926195.chunk.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/Professional-Portfolio-React/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.5dced429.chunk.js": "/Professional-Portfolio-React/static/js/2.5dced429.chunk.js",
+    "static/js/2.5dced429.chunk.js.map": "/Professional-Portfolio-React/static/js/2.5dced429.chunk.js.map",
     "index.html": "/Professional-Portfolio-React/index.html",
-    "static/css/2.383c0125.chunk.css.map": "/Professional-Portfolio-React/static/css/2.383c0125.chunk.css.map",
-    "static/css/main.8afcf279.chunk.css.map": "/Professional-Portfolio-React/static/css/main.8afcf279.chunk.css.map",
-    "static/js/2.12926195.chunk.js.LICENSE.txt": "/Professional-Portfolio-React/static/js/2.12926195.chunk.js.LICENSE.txt",
-    "static/media/alex-gibson-headshot.a28ba5ea.jpeg": "/Professional-Portfolio-React/static/media/alex-gibson-headshot.a28ba5ea.jpeg",
+    "static/css/2.0a9ec390.chunk.css.map": "/Professional-Portfolio-React/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.81b094d4.chunk.css.map": "/Professional-Portfolio-React/static/css/main.81b094d4.chunk.css.map",
+    "static/js/2.5dced429.chunk.js.LICENSE.txt": "/Professional-Portfolio-React/static/js/2.5dced429.chunk.js.LICENSE.txt",
+    "static/media/alex-gibson-headshot-min.d8770157.jpeg": "/Professional-Portfolio-React/static/media/alex-gibson-headshot-min.d8770157.jpeg",
     "static/media/Home.css": "/Professional-Portfolio-React/static/media/alex-in-den-haag-1,5.60145aeb.jpg",
     "static/media/alexander-gibson-resume-2022-image.dd987c79.png": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2022-image.dd987c79.png",
-    "static/media/alexander-gibson-resume-2022.926f2373.docx": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2022.926f2373.docx",
+    "static/media/alexander-gibson-resume-2022.346ed68c.pdf": "/Professional-Portfolio-React/static/media/alexander-gibson-resume-2022.346ed68c.pdf",
     "static/media/artGallery.018b0ddb.png": "/Professional-Portfolio-React/static/media/artGallery.018b0ddb.png",
     "static/media/cryptocraft.53997b24.png": "/Professional-Portfolio-React/static/media/cryptocraft.53997b24.png",
     "static/media/fitnessTracker-sq.01d615e7.png": "/Professional-Portfolio-React/static/media/fitnessTracker-sq.01d615e7.png",
@@ -28,9 +28,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ea9a8adf.js",
-    "static/css/2.383c0125.chunk.css",
-    "static/js/2.12926195.chunk.js",
-    "static/css/main.8afcf279.chunk.css",
-    "static/js/main.2eed307b.chunk.js"
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.5dced429.chunk.js",
+    "static/css/main.81b094d4.chunk.css",
+    "static/js/main.055d8950.chunk.js"
   ]
 }
