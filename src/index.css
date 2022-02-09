@@ -41,11 +41,10 @@
     --kolnEgg: #E8E5DF;
     --kolnShark: #D1CFCD;
     --kolnSwartz: #272629;
-
 }
 
 * {
-    /* font-size: 16px; */
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
     font-family: Helvetica;
@@ -61,3 +60,18 @@ html {
     background-repeat: no-repeat;
     background-attachment: local;
 }
+
+/* 
+body {
+    height: 100%;
+    margin: 0px;
+    color: var(--bauhausBlack);
+    background: linear-gradient(45deg, var(--bauhausWhite) 20%, var(--bauhausGrey));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    zoom: 90%;
+} */

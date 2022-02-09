@@ -2,7 +2,7 @@ import React from 'react';
 import './About.css';
 import './Footer.css';
 import Footer from './Footer.js';
-import headshot from './images/alex-gibson-headshot.jpeg';
+import headshot from '../assets/images/alex-gibson-headshot-min.jpeg';
 
 
 import css from '../assets/black-icons/css3.png';
@@ -50,7 +50,7 @@ export default function About() {
           </section>
           <section className="h-100 bisection bisection-2 col-lg-6">
             <h1 className="bisection-h1 bisection-2-h1">skills</h1>
-            <div className='row skill-box'>
+            <div className="row skill-box">
               <ul className="skills-ul col-sm-6">
                 <li className="skills-li" id="skill-1"><img src={js} className="skills-img col-6" type="image" alt="javascript" /><span className="skills-label col-6"> JavaScript</span></li>
                 <li className="skills-li" id="skill-2"><img src={jquery} className="skills-img col-6" type="image" alt="jquery" /><span className="skills-label col-6"> jQuery</span></li>

@@ -34,7 +34,6 @@ export default function PortfolioContainer() {
       <main>
         {renderPage()}
       </main>
-      {/* <Footer /> Footer is purposefully not here so that it is not rendered on the home page.*/}
     </div>
   );
 }

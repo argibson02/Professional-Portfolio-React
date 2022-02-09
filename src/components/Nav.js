@@ -1,10 +1,10 @@
 import React from 'react';
-import './Nav.css'
+import './Nav.css';
 
 function Nav({ currentPage, handlePageChange }) {
   return (
     <div>
-      <nav className="display-flex row desktop-nav" id='nav-bar'>
+      <nav className="display-flex row desktop-nav" id="nav-bar">
         <p className="gibson-nav-brand col-md-4">alex gibson</p>
         <ul className="nav col-md-7">
           <li className={currentPage === 'Home' ? 'nav-item gibson-li-active' : 'nav-item'}>

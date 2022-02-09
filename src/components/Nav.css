@@ -61,7 +61,7 @@ ul > li:hover {
 
 li a:hover {
     transform: scale(1.15);
-    text-decoration: none;
+    text-decoration: none;
     color: var(--bauhausYellow) !important;
 }
 
@@ -76,6 +76,7 @@ li a:hover {
 }
 
 
+/* RESPONSIVE */
 @media screen and (max-width: 768px) {
     .gibson-nav-brand {
         margin-left: 0px;
@@ -103,6 +104,35 @@ li a:hover {
         margin-right: 0px;
     }
 }
+
+
+/*-----------BREAKPOINTS RESPONSIVE LOGIC---------------*/
+@media screen and (max-width: 685px) {
+    header {
+        height: fit-content;
+    }
+
+    header h1 {
+        align-content: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 8px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    header h1 {
+        font-size: 90px;
+        padding: 0.5rem 0rem 0rem 1.5rem ;
+        }
+}
+
+
+
 
 
 /* Adding hamburger later */
@@ -199,3 +229,4 @@ left: 50%;
       display: none;   
     }
   } */
+  

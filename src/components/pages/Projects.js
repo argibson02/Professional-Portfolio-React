@@ -23,6 +23,6 @@ export default function Projects() {
         </div>
         <Footer />
       </div>
-    </div >
+    </div>
   );
 }

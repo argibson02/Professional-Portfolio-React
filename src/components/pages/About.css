@@ -49,10 +49,6 @@ p {
     text-shadow: -3px 3px 0px var(--rotterdamRot), -6px 6px 0px var(--rotterdamPink);
 }
 
-.bisection-1:hover > p {
-    background-color: rgb(244, 244, 244, .8);
-}
-
 
 /* hover over shadows bisection-2*/
 .bisection-2:hover > .bisection-2-h1 {
@@ -80,46 +76,46 @@ p {
     justify-content: flex-start;
 }
 
+.skills-label {
+    font-size: 20px;
+}
 
 /*Skills hover accordion delay*/
 #skill-1 {
-    /*transition: 400ms ease-in-out;*/
     transition-delay: 0s;
 }
+
 #skill-2 {
-    /*transition: 450ms ease-in-out;*/
     transition-delay: .060s;
 }
+
 #skill-3 {
-    /*transition: 500ms ease-in-out;*/
     transition-delay: .120s;
 }
+
 #skill-4 {
-    /*transition: 550ms ease-in-out;*/
     transition-delay: .180s;
 }
+
 #skill-5 {
-    /*transition: 600ms ease-in-out;*/
     transition-delay: .240s;
 }
+
 #skill-6 {
-    /*transition: 650ms ease-in-out;*/
     transition-delay: .300s;
 }
+
 #skill-7 {
-    /*transition: 700ms ease-in-out;*/
     transition-delay: .360s;
 }
+
 #skill-8 {
-    /*transition: 750ms ease-in-out;*/
     transition-delay: .420s;
 }
+
 #skill-9 {
-    /*transition: 800ms ease-in-out;*/
     transition-delay: .480s;
 }
-
-
 
 .skills-img {
     max-width: 50px;
@@ -128,6 +124,7 @@ p {
 }
 
 
+/* RESPONSIVE */
 @media screen and (max-width: 1400px) {
     body{
         overflow: inherit;
