@@ -38,8 +38,8 @@ export default function About() {
               I am a full-stack developer with a strong history of software
               quality assurance success and a desire to build products that work.
               I am certified in full-stack development from UC Berkeley Extension
-              and have experience with Javascript, jQuery, HTML, CSS, React.js,
-              SQL, MongoDB, Node.js, Express.js, various web APIs, and more. I
+              and have experience with Javascript, React.js, SQL, MongoDB, Node.js, 
+              Express.js, GraphQL, REST APIs, Mocha.js, and more. I
               have worn many hats in my previous roles as a software quality
               assurance analyst and have participated in nearly every step of the
               software development process. I bring a panoramic view to every project

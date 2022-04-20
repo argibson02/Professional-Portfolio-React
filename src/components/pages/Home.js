@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <div className="container-mid text-center row">
           <div className="animation-container animation-fade-up col-12" data-animation-delay="300">
-            <p className="subline">i need a job!<br />seeking new challenges and opportunities.</p>
+            <p className="subline">seeking new challenges and opportunities!</p>
           </div>
         </div>
       </section>
